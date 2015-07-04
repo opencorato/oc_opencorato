@@ -1,0 +1,35 @@
+<div class="calendar_container" xmlns="http://www.w3.org/1999/html">
+  <div class="row-fluid">
+    <div>
+      <div class="calendar" data-events=".calendar_events"></div>
+    </div>
+    <div>
+      <ul class="calendar_events events">
+        {% for event in events %}
+            <li data-day="{{ event.date|date:"m/d/Y" }}"><strong>{{ event.date|date:"d.m.Y" }}</strong> alle {{ event.event_time|time:"H:i" }}
+                <a href="#event_{{ event.id }}_description" class="event_toggle_modal">{{ event.title }}</a>
+                {%  include 'events/_modal.html' %}
+            </li>
+        {% empty %}
+            Nessun appuntamento in programma
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-ui-1.8.18.custom.min.js"></script>
+<script type="text/javascript">
+  include(["css/ui-custom-theme/jquery-ui-1.8.16.custom.css", "js/jquery-ui.calendar.js"]);
+
+  include(["js/bootstrap-modal.js"], function() {
+      $('a.event_toggle_modal').each(function() {
+          var link = $(this);
+          link.click(function(e) {
+              e.preventDefault();
+              $(link.attr('href')).modal();
+          });
+      });
+  });
+
+</script>

@@ -1,0 +1,45 @@
+{% extends "open_municipio:base_two_columns.html" %}
+
+{% block content %}
+<!-- templates/payment.html -->
+<div class="container">
+<div class="row">
+<div class="offset4 span4 text-center">
+<form method="post">
+    <h1>{{ plan.name }}</h1>
+    <fieldset class="container">
+    <p class="row">
+        <span class="span2">Netto:</span>
+        <span class="span2 text-right">{{ plan.net_amount }} {{plan.currency }}</span>
+    </p>
+    <p class="row">
+        <span class="span2">Tasse:</span>
+        <span class="span2 text-right">{{ plan.tax }} {{plan.currency }}</span>
+    </p>
+    <p class="row">
+        <span class="span2">Totale:</span>
+        <span class="span2 text-right">{{ plan.total_amount }} {{plan.currency }}</span>
+    </p>
+    </fieldset>
+    <hr/>
+    <h2>Effettua pagamento</h2>
+    {% csrf_token %}
+    <fieldset class="container">
+    {% for field in form %}
+    {% if field.is_hidden %}
+    {{ field }}
+    {% else %}
+    <p class="row">
+    <div class="span2 text-right">{{ field.label|capfirst }}</div>
+    <div class="span2">{{ field }}</div>
+    </p>
+    {% endif %}
+    {% endfor %}
+    </fieldset>
+    <p><input type="submit" value="Conferma pagamento" /></p>
+
+</form>
+</div>
+</div>
+</div>
+{% endblock %}

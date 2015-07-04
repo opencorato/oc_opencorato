@@ -1,0 +1,4 @@
+{{ object.title }}
+{{ object.text }}
+{{ object.description }}
+{{ object.idnum }}

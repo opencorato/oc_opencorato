@@ -1,0 +1,281 @@
+{% extends 'base_two_columns.html' %}
+
+{% load popover_info %}  
+
+{% block title %}Albo | Iscritti e Commissioni{% endblock title %}
+{% block content_header %}Iscritti e Commissioni{% endblock %}
+{% block institutions_class %}active{% endblock %}
+
+{% block people_class %}class="active"{% endblock %}
+{% block body_class %}politician{% endblock %}
+
+{% block content_header_city_logo %}
+    <img style="margin: -5%;" src="/static/img/ORDINE-PSICOLOGI.png"  alt="Comune di {{ main_city }}">
+{% endblock %}
+
+{% block sub_nav %}
+    {%  include 'commons/subnav.html' with active='Commissioni' %}
+{% endblock %}
+
+
+{% block content %}
+    <h2>Sezioni dell'albo:{% popover_info 'elenco-dei-membri-degli-iscritti-albo' %}</h2>
+
+<section id="payoff" class="container-fluid">
+    <div class="row-fluid" >
+      
+      <div class="cosa-fanno span6" style="">
+        <h3 style="
+width: 200%;
+text-align: center;
+position: relative;
+margin-top: 0;
+font-size: 20px;
+padding-bottom: 5px;
+font-weight: 100;
+display: inline-block;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 2px solid #CCC;
+white-space: nowrap;
+padding: 34px 0px 21px 0px;
+border-radius: 20px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: #f5f5f5;
+
+">Scopri gli psicologi della tua regione:
+            </br>
+            <input style="width: 80%;
+line-height: 19px;
+height: 37px;
+font-size: 17px;
+margin-left: 0px;
+padding: 4px 0px 0px 48px;
+margin-top: 10px;" type="text" class="input-large" id="search-politician"
+                   data-provide="typeahead" data-items="5" data-minLength="2"
+                   placeholder="Digita il nome di uno psicologo">
+        </h3>
+      </div>
+    </div>
+    </br>
+  </section>
+
+    <div class="">
+        <div class="row-fluid">
+            <div style="width: 93% !important;" class="span12 tree well">
+<style type="text/css">
+    
+    <style type="text/css">
+    .tree {
+        min-height:20px;
+        padding:19px;
+        margin-bottom:20px;
+        background-color:#fbfbfb;
+        border:1px solid #999;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        border-radius:4px;
+        -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+        box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05)
+    }
+    .tree li {
+        list-style-type:none;
+        margin:0;
+        padding:10px 5px 0 5px;
+        position:relative
+    }
+    .tree li::before, .tree li::after {
+        content:'';
+        left:-20px;
+        position:absolute;
+        right:auto
+    }
+    .tree li::before {
+        border-left:1px solid #999;
+        bottom:50px;
+        height:100%;
+        top:0;
+        width:1px
+    }
+    .tree li::after {
+        border-top:1px solid #999;
+        height:20px;
+        top:25px;
+        width:25px
+    }
+    .tree li span {
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border:1px solid #999;
+        border-radius:5px;
+        display:inline-block;
+        padding:3px 8px;
+        text-decoration:none
+    }
+    .tree li.parent_li>span {
+        cursor:pointer
+    }
+    .tree>ul>li::before, .tree>ul>li::after {
+        border:0
+    }
+    .tree li:last-child::before {
+        height:30px
+    }
+    .tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+        background:#eee;
+        border:1px solid #94a0b4;
+        color:#000
+    }
+    .endless_page_link{
+        float: left;
+        padding: 0 14px;
+        line-height: 32px;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-left-width: 0;
+    }
+  </style>       
+                  <ul>
+                    {% for committee in committees %}                        
+                        <li>
+                            {% if not committee.parent_id %}
+                            
+                                <span><i class="icon-folder-open"></i> {{ committee.name }}:</span><a href="{{ committee.get_absolute_url }}"></a>
+                                    <a href="{{ committee.get_absolute_url }}"><strong>{{ committee.description }}</strong></a>
+                                <ul>
+                                  
+                            {% else %}                                                                                               
+                                    <span><i class="icon-user"></i> </span> <a href="{{ committee.get_absolute_url }}"><strong>{{ committee.name }}:</strong></a>
+                                    <ul>
+                                        <li>
+                                            <span> iscritti </span> 
+                                        </li>
+                                    </ul>
+                                                                                          
+                            {% endif %}  
+                        
+                    {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    $(function(){
+        $('.tree li:has(ul)').addClass('parent_li').find(' > span').attr('title', 'Collapse this branch') 
+
+            var children_super = $('li.parent_li > ul > li').find(' > ul > li');
+            children_super.hide('fast');
+
+            $('.tree li.parent_li > span').on('click', function (e) { 
+
+                var children = $(this).parent('li.parent_li').find(' > ul > li');                   
+            
+                if (children.is(":visible")) {
+                    children.hide('fast');
+                    $(this).attr('title', 'Expand this branch').find(' > i').addClass('icon-plus-sign').removeClass('icon-minus-sign');
+                } else {
+                    children.show('fast');
+                    $(this).attr('title', 'Collapse this branch').find(' > i').addClass('icon-minus-sign').removeClass('icon-plus-sign');
+                }
+            
+                e.stopPropagation();
+            
+            });
+
+       });
+    </script>
+
+{% endblock %}
+
+{% block footer_js_includes %}
+  {{ block.super }}
+
+  <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.submitlink.js"></script>
+  <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-modal.js"></script>
+  <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-typeahead.2.0.0.modified.js"></script>
+  <script src="{{ STATIC_URL }}endless_pagination/js/endless-pagination.js"></script>
+
+  <script>$.endlessPaginate();</script>
+
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+      
+          function removenull(str) {
+              var new_str = str;
+              if (str == '') {
+                  new_str = str.replace('', "N/A");
+              }
+              else if (str == null) {
+                  new_str = "N/A";
+              }
+
+              return new_str;
+          }
+      
+          $('#search-politician').typeahead({
+              source: function(typeahead, query) {
+                  $.ajax({
+                      url: "{% url 'om_politician_search'  %}",
+                      dataType: "json",
+                      type: "GET",
+                      data: {
+                          max_rows: 10,
+                          key: query,
+                          ajax: 1
+                      },
+                      success: function(data) {
+                          var return_list = [], i = data.length;
+                          while (i--) {
+                              return_list[i] = {
+                                  slug: data[i].fields.slug,
+                                  image: data[i].fields.img,
+                                  value: removenull(data[i].fields.first_name) + " " + removenull(data[i].fields.last_name) + " " + removenull(data[i].fields.extra_data)};
+                          }
+                          typeahead.process(return_list);
+                      }
+                  });
+              },
+              onselect: function(obj) {
+                  window.location.href = "http://{{ current_site }}/people/" + obj.slug;
+              }
+          });
+      
+          $('a.event_toggle_modal').each(function() {
+              var link = $(this);
+              link.click(function(e) {
+                  e.preventDefault();
+                  $(link.attr('href')).modal();
+              });
+          });
+      
+      });
+
+      
+  </script>
+
+    {% if ALERT_POPUP|length > 0 %}
+      <script type="text/javascript">
+          $(document).ready(function(){
+              $('#home-alert').modal();
+          });
+      </script>
+  {% endif %}
+{% endblock %}
+
+{% block sidebar %}
+    <section>
+        {% include 'commons/calendar.html' with events=events %}
+    </section>
+{% endblock %}

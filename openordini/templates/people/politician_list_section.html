@@ -1,0 +1,25 @@
+{% load thumbnail %}
+
+<a href="{{ politician.person.get_absolute_url }}">
+    {% if politician.person.img %}
+        {% thumbnail politician.person.img "50x50" crop="center" as im %}
+            <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}" class="politician-picture">
+        {% endthumbnail %}
+    {% else %}
+        <img src="{{ STATIC_URL }}img/placehold/face_50.png" width="50" height="50" class="politician-picture">
+    {% endif %}
+</a>
+<div>
+
+  <a href="{{ politician.person.get_absolute_url }}"><strong>{{ politician.person|title }}</strong></a><br/>
+  <span class="inline-block">{% if what %}{{ value }} {{ what }}{% else %}{{ value }}{% endif %}</span>
+
+  <br>
+
+  {% with c_group=politician.council_group %}
+  {% if c_group %}
+  {{ c_group.name|truncatechars:40 }} ({{ c_group.acronym }})
+  {% endif %}
+  {% endwith %}
+
+</div>

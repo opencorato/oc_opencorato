@@ -1,0 +1,220 @@
+{% extends "base_two_columns.html" %}
+{% load i18n %}
+{% load comments %}
+{% load voting_tags %}
+{% load om_utils %}
+{% load thumbnail %}
+{% load monitoring_tags %}
+{% load newscache_tags %}
+{% load popover_info %}
+{% load url from future %}
+
+
+{% block title %}Dettaglio {{ person }}{% endblock %}
+{% block content_header %}Politico{% endblock %}
+{% block content_header_city_logo %}
+    <img src="{{ STATIC_URL }}img/{{ main_city|lower }}-logo/politician.png"
+         xmlns:br="http://www.w3.org/1999/html"
+         alt="Comune di {{ main_city }}">
+{% endblock %}
+{% block body_class %}politician{% endblock %}
+{% block people_class %}class="active"{% endblock %}
+
+
+{% block head_css_includes %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/meter-bar.css" />
+{% endblock head_css_includes %}
+
+{% block head_js_includes %}
+  {{ block.super }}
+  <script src="{{ STATIC_URL }}js/ajax_csrf.js" type="text/javascript" charset="utf-8"></script>
+  <script src="{{ STATIC_URL }}js/jquery.submitlink.js" stype="text/javascript"></script>
+{% endblock head_js_includes %}
+
+{% block sub_nav %}
+    {%  include 'commons/subnav.html' %}
+{% endblock %}
+
+
+{% block content %}
+
+  <hgroup>
+
+  <div class="row-fluid">
+
+    <div class="span8">
+
+      <header class="clearfix">
+        {% if person.img %}
+            {% thumbnail person.img "100x100" crop="center" as im %}
+                  <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}" class="thumb-left politician-picture">
+            {% endthumbnail %}
+        {% else %}
+            <img src="{{ STATIC_URL }}img/placehold/face_100.png" width="100" height="100" class="thumb-left politician-picture">
+        {% endif %}
+
+        <h1>
+          {% if person.is_om_user %}
+            <i class="icon-ok" title="{{ person }} è iscritto a Open municipio"></i>
+          {% endif %}
+          {{ person }}
+        </h1>
+        {% for inst in current_institutions %}
+          <p>{{ inst.institution__name }}</p>
+        {% endfor %}
+
+        <p>
+          {% for resource in resources.EMAIL %}
+            <a href="mailto:{{ resource.value }}">{{ resource.value }}</a>
+          {% endfor %}
+          <br>
+          {% for resource in resources.PHONE %}
+            Tel. {{ resource.value }}
+          {% endfor %}
+          {% for resource in resources.FAX %}
+            Fax {{ resource.value }}
+          {% endfor %}
+        </p>
+      </header>
+
+      {% if current_charges %}
+        <ul class="list-plain">
+            {% for c in current_charges %}
+                <li><strong>{{ c.denomination }}</strong> dal {{ c.start_date|date:"d.m.Y" }}{% if c.end_date %} al {{ c.end_date|date:"d.m.Y" }}{% endif %} {% popover_info 'carica-attuale' %}</li>
+            {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if current_groupcharge %}
+          Gruppo <a href="{% url 'om_institution_group' slug=current_groupcharge.group.slug %}"><strong>{{ current_groupcharge.group }}</strong></a>
+          {% if current_groupcharge.current_responsability %}
+              - {% trans current_groupcharge.current_responsability.get_charge_type_display %}
+              dal {{ current_groupcharge.current_responsability.start_date|date:'d.m.Y' }}
+          {%  endif %}
+          <br/>
+      {% endif %}
+      {% if historical_groupcharges %}
+          Gruppi precedenti:
+              <ul>
+                  {% for gc in historical_groupcharges %}
+                      <li>{{ gc.group.name }} - dal {{ gc.start_date|date:'d.m.Y' }} {%  if gc.end_date %} al {{ gc.end_date|date:'d.m.Y' }}{%  endif %}</li>
+                  {% endfor %}
+              </ul>
+          {% endif %}
+
+      {% if current_committee_charges %}
+          <ul class="list-plain">
+            {% for c in current_committee_charges %}
+              <li>{{ c.institution }}:
+                <em>{{ c.institution.description }}</em>
+                {% if c.current_responsability %}
+                  - {% trans c.current_responsability.get_charge_type_display %}
+                  dal {{ c.current_responsability.start_date|date:'d.m.Y' }}
+
+                {%  endif %}
+
+              </li>
+            {% endfor %}
+          </ul>
+      {% endif %}
+
+      {% if resources.FINANCIAL %}
+        <p>
+        {% for resource in resources.FINANCIAL %}
+        <br/>
+        {% with label=resource.description|default:"Informazioni finanziarie" %}
+        {{ label }} <a href="{{ resource.value  }}" alt="{{ label }}" title="{{ label }}" target="_blank"><i class="icon-download"></i></a>
+        {% endwith %}
+        {% endfor %}
+        </p>
+      {% endif %}
+
+    </div>
+
+    <div class="span4">
+      <table>
+          {% for resource in resources.URL %}
+            <tr><td><i class="res res-feed"></i></td><td><a class="website" href="{{ resource.value }}">Sito web</a></td></tr>
+	      {% endfor %}
+          {% for resource in resources.FACEBOOK %}
+            <tr><td><i class="res res-facebook"></i></td><td><a class="facebook" href="{{ resource.value }}">Pagina Facebook</a></td></tr>
+	      {% endfor %}
+          {% for resource in resources.TWITTER %}
+            <tr><td><i class="res res-twitter"></i></td><td><a class="twitter" href="{{ resource.value }}">Profilo Twitter</a></td></tr>
+	      {% endfor %}
+	      {% if person.openpolis_link %}
+            <tr><td><i class="res res-openpolis"></i></td><td><a class="openpolis" href="{{ person.openpolis_link }}">Pagina su Openpolis</a></td></tr>
+	      {% endif %}
+          {% if person.userprofile %}
+            <tr><td><i class="res res-openmunicipio"></i></td><td><a class="openpolis" href="{{ person.userprofile.get_absolute_url }}">Pagina su Open Municipio</a></td></tr>
+          {% endif %}
+      </table>
+
+    </div>
+
+  </div>
+  </hgroup>
+
+  <div class="nav-tabs-container">
+    <ul class="nav nav-tabs page-tabs">
+      {% for c in current_charges %}
+        <li {% if c == charge %}class="active" {% endif %} >
+            <a href="{{ c.get_absolute_url }}">
+            {{ c.charge_type }} dal {{ c.start_date|date:"Y" }}{% if c.end_date %} al {{ c.end_date|date:"Y" }}{% endif %}
+            </a>
+        </li>
+      {% endfor %}
+      {% for c in past_charges %}
+        <li {% if c == charge %}class="active" {% endif %} >
+            <a href="{{ c.get_absolute_url }}">
+            {{ c.charge_type }} dal {{ c.start_date|date:"Y" }}{% if c.end_date %} al {{ c.end_date|date:"Y" }}{% endif %}
+            </a>
+        </li>
+      {% endfor %}
+       
+    </ul>
+  </div>
+
+  {% include 'people/politician_charge_detail.html' %}
+
+{% endblock %}
+
+{% block sidebar %}
+
+  <section class="share-tools clearfix">
+      {% load web_services_tags %}
+      {% share person %}
+  </section>
+
+  <section><h3>Monitora {% popover_info 'monitoraggio' 'left' %}</h3>
+      {% object_monitoring person %}
+  </section>
+
+  <hr>
+
+  <section><h3>Argomenti di cui si occupa {% popover_info 'argomenti-di-cui-si-occupa' 'left' %}</h3>
+    <dl class="taxonomy-cloud">
+      {% regroup person_topics|dictsort:"category.name" by category as categorized_topics %}
+      {% for grouped_tags in categorized_topics %}
+        <dt><a href="{{ grouped_tags.grouper.get_absolute_url }}">{{ grouped_tags.grouper.name }}</a></dt>
+        {% for topic in grouped_tags.list %}
+          {% if topic.tag %}
+            <dd><a href="{{ topic.tag.get_absolute_url }}">{{ topic.tag }}</a></dd>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </dl>
+  </section>
+
+  <hr>
+
+  {% institutional_news_for_object person as i_news %}
+  {% include 'commons/news_list.html' with news_list=i_news news_title='Ultime su '|add:person.full_name %}
+  <hr>
+
+
+{#  {% community_news_for_object person as c_news %}#}
+{#  {% include 'commons/news_list.html' with news_list=FIXME news_title='Ultime dalla community' %}#}
+
+{% endblock %}

@@ -1,0 +1,240 @@
+{% extends "registration/base_user.html" %}
+{% load i18n %}
+{% load registration_tags %}
+{% load staticfiles %}
+{% load popover_info %}
+
+{% block head_css_includes %}
+    {{ block.super }}
+<!--     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" /> -->
+     <link rel="stylesheet" href="{% static "css/jquery-ui.css" %}" />
+
+{% endblock head_css_includes %}
+
+{% block head_js_includes %}
+  {{ block.super }}
+<!--    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> 
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/jquery-ui-i18n.min.js"></script> -->
+
+    <script src="{% static "js/jquery-ui.min.js" %}"</script>
+    <script src="{% static "js/jquery-ui-i18n.min.js" %}>"</script>
+
+
+    <script src="{% static "js/jquery.chained.js" %}"></script>
+{% endblock head_js_includes %}
+
+
+{% block title %}Registrazione al sito{% endblock %}
+{% block content_header %}Registrazione al sito{% endblock %}
+
+{% block content %}
+    <div class="registration container">
+        <div class="row-fluid">
+            <div class="span8">
+                <p>Per accedere al gestionale bisogna essere registrati al sito. 
+               
+                
+                <form enctype="multipart/form-data" action="" method="post" class="form-horizontal" accept-charset="utf-8">
+                  <ul class="nav nav-tabs">
+                      <li class="active {% if form|fieldset_error:"access" %}error{% endif %}"><a href="#tab-1" data-toggle="tab">Credenziali</a></li>
+                      <li {% if form|fieldset_error:"basic" %}class="error"{% endif %}><a href="#tab-2" data-toggle="tab">Dati per l'iscrizione</a></li>
+                      <li {% if form|fieldset_error:"contacts" %}class="error"{% endif %}><a href="#tab-3" data-toggle="tab">Recapiti</a></li>
+                      <li {% if form|fieldset_error:"extra" %}class="error"{% endif %}><a href="#tab-4" data-toggle="tab">Richieste e Dichiarazioni</a></li>
+                  </ul>
+                  <div class="tab-content">
+                        <div class="tab-pane active" id="tab-1">
+                        
+                         <legend>Dati per accedere al sito</legend>
+                         <span class="add-on" style="color: #CCC;"><i class="icon-obbligatorio"> evidenzia i campi obbligatori</i></span></p></br>
+                            {% include "registration/form_element.html" with element=form.username prepend="Non sono ammessi spazi" %}
+                            {% include "registration/form_element.html" with element=form.password1 %}
+                            {% include "registration/form_element.html" with element=form.password2 %}
+                            <div class="form-actions passw">
+                               <button type="button" class="btn btn-info btn1" wizard="passo1">Passo 1</button>
+                            </div>                       
+                            
+                        </div>
+                        <div class="tab-pane" id="tab-2">
+                         
+                          <legend>Dati personali</legend>
+                          <span class="add-on" style="color: #CCC;"><i class="icon-obbligatorio"> evidenzia i campi obbligatori</i></span></p></br>
+                             <div id="legal" class="alert">
+                                 <span>Le seguenti informazioni sono quelle necessarie all'iscrizione, altre (ad esempio di natura professionale) potranno essere inserite nel proprio profilo (accessibile dopo l'attivazione)</span>                                  
+                            </div>
+
+                            {% include "registration/form_element.html" with element=form.email prepend="@" %}
+        {% comment %}
+                            {% include "registration/form_element.html" with element=form.location %}
+        {% endcomment %}
+                            {% include "registration/form_element.html" with element=form.first_name %}
+                            {% include "registration/form_element.html" with element=form.last_name %}
+                            {% include "registration/form_element.html" with element=form.sex %}
+
+                            {% include "registration/form_element.html" with element=form.birth_date %}
+                            {% include "registration/form_element.html" with element=form.birth_location %}
+
+                            {% if UI_ALLOW_NICKNAMES %}
+                                {% include "registration/form_element.html" with element=form.uses_nickname checkbox=1 %}
+                            {% endif %}
+        {% comment %}
+                            {% include "registration/form_element.html" with element=form.says_is_politician checkbox=1 %}
+        {% endcomment %}
+                            {% include "registration/form_element.html" with element=form.description %}
+                            <legend></legend> 
+                            {% include "registration/form_element.html" with element=form.image %}
+                            <legend>Tipologia:</legend> 
+                            {% include "registration/form_element.html" with element=form.says_is_psicologo_lavoro checkbox=1 %}
+                            {% include "registration/form_element.html" with element=form.says_is_psicologo_clinico checkbox=1 %}
+                            
+        {% comment %}                    
+                            {% include "registration/form_element.html" with element=form.says_is_psicologo_forense checkbox=1 %}
+        {% endcomment %}
+                            {% include "registration/form_element.html" with element=form.says_is_dottore_tecniche_psicologiche checkbox=1 %}
+
+                            <div id="legal" class="alert">
+                                 {% include "registration/form_element.html" with element=form.is_asl_employee checkbox=1 %}
+                                 {% include "registration/form_element.html" with element=form.is_self_employed checkbox=1 %}
+                            </div>
+                           
+                            <legend>Iscrizione:</legend> 
+
+                            {% include "registration/form_element.html" with element=form.register_subscription_date %}
+
+                            {% include "registration/form_element.html" with element=form.wants_newsletter checkbox=1 %}
+                            </br></br>
+                            <h1><legend>Privacy Informativa:</legend> </h1>
+                             <h4>
+                                   Informativa relativa al trattamento dati personali ex articolo 13 d.lgs 196/2003 (Codice in materia di Protezione dei Dati Personali) ai sensi del Provvedimento del Garante per la protezione dei dati personali «Consenso al trattamento dei dati personali per finalità di “marketing diretto” attraverso strumenti tradizionali e automatizzati di contatto» del 15 maggio 2013 (Gazzetta Ufficiale n. 174 del 26 luglio 2013)
+                            </h4>
+                            </br>
+                            <div id="legal" class="alert">
+                                 <legend>Consenso al trattamento della casella di posta elettronica {% popover_info 'posta-elettronica' %}</legend>   
+                                 {% include "registration/form_element.html" with element=form.wants_commercial_newsletter checkbox=1 %}
+                                
+                                <p>L’Ordine degli Psicologi della Regione Puglia, in qualità di Titolare del trattamento, La informa che il trattamento del dato personale riferito alla casella di posta elettronica indicata, per l’invio di comunicazioni, informazioni, newsletter, studi e ricerche e materiale pubblicitario anche personalizzati riguardante le attività organizzate dall’Ordine e per il compimento di ricerche di mercato anche personalizzati, riguardante materiali e servizi di terzi, quali <strong>(Università, Enti di ricerca e statistica, ASL, Consiglio Nazionale Dell’Ordine degli Psicologi, MIUR, Scuole di specializzazione)</strong> qualora Lei abbia rilasciato il Suo consenso, potrà essere effettuato sia con modalità di contatto automatizzate (posta elettronica, fax) che con modalità tradizionali (posta cartacea, chiamate tramite operatore).
+Le ricordiamo che ai sensi dell’articolo 7 del d.lgs 196/2003 Lei può opporsi gratuitamente, in tutto o in parte al trattamento dei dati personali che La riguardano
+</p>
+                            </div>
+
+                            <div id="legal" class="alert">
+                                 <legend>Consenso al trattamento del numero cellulare {% popover_info 'numero-cellulare' %}</legend>   
+                                  {% include "registration/form_element.html" with element=form.wants_commercial_mobile checkbox=1 %}
+                                 <p>
+                                   Il numero cellulare è da considerarsi dato personale: quindi attivate la spunta se ci è consentito utilizzarlo, dobbiamo rispettare la normativa vigente sul trattamento dei dati personali (D.lgs 196/2003)
+                                  </p>
+                            </div>
+
+
+                            <div class="form-actions passw">
+                               <button type="button" class="btn btn-info btn1" wizard="passo2">Passo 2</button>
+                            </div>   
+                        </div>
+                        <div class="tab-pane" id="tab-3">
+                        
+                          <legend>Residenza</legend> 
+                          <span class="add-on" style="color: #CCC;"><i class="icon-obbligatorio"> evidenzia i campi obbligatori</i></span></p></br>                       
+                             {% include "registration/form_element.html" with element=form.indirizzo_residenza %}
+                             {% include "registration/form_element.html" with element=form.regione_residenza %}
+                             {% include "registration/form_element.html" with element=form.provincia_residenza %}
+                             {% include "registration/form_element.html" with element=form.citta_residenza %}
+                             {% include "registration/form_element.html" with element=form.cap_residenza %}
+
+                          <legend>Domicilio</legend>
+                             {% include "registration/form_element.html" with element=form.indirizzo_domicilio %}
+                             {% include "registration/form_element.html" with element=form.regione_domicilio %}
+                             {% include "registration/form_element.html" with element=form.provincia_domicilio %}
+                             {% include "registration/form_element.html" with element=form.citta_domicilio %}
+                             {% include "registration/form_element.html" with element=form.cap_domicilio %}
+
+                          <legend>Studio professionale</legend>                            
+                             {% include "registration/form_element.html" with element=form.indirizzo_studio %}
+                             {% include "registration/form_element.html" with element=form.regione_studio %}
+                             {% include "registration/form_element.html" with element=form.provincia_studio %}   
+                             {% include "registration/form_element.html" with element=form.citta_studio %}
+                             {% include "registration/form_element.html" with element=form.cap_studio %}
+
+
+                            <legend></legend>                        
+                             <div id="legal" class="alert">
+                                 <legend>Invio lecito di corrispondenza</legend>                          
+                                 <p>
+                                   Decido di ricevere la corrispondenza da parte dell'Ordine alla seguente opzione indicata:
+                                  </p></br>
+                                  {% include "registration/form_element.html" with element=form.consegna_corrispondenza %}
+                            </div>
+                            
+                             
+                          <legend>Altro</legend>
+                             {% include "registration/form_element.html" with element=form.codice_fiscale %}
+                             <div class="form-actions passw">
+                                 <button type="button" class="btn btn-info btn1" wizard="passo3">Passo 3</button>
+                             </div>   
+                        </div>
+                        <div class="tab-pane" id="tab-4">
+                          <legend>Opzioni e servizi</legend>
+                          <span class="add-on" style="color: #CCC;"><i class="icon-obbligatorio"> evidenzia i campi obbligatori</i></span></p></br>
+                          {% include "registration/form_element.html" with element=form.ritiro_agenda checkbox=1 %}
+                          {% include "registration/form_element.html" with element=form.invio_tesserino checkbox=1 %}
+                            <div id="legal" class="alert">
+                                {% include "registration/form_element.html" with element=form.tos checkbox=1 %}
+                                {% include "registration/form_element.html" with element=form.pri checkbox=1 %}
+                            </div>                          
+
+                             <div id="legal" class="alert">
+                                 <legend>  * Le informazioni sopra riportate sono state fornite direttamente dall'interessato e, pertanto, rientrano nella sua esclusiva responsabilità</legend>                                 
+                            </div>
+
+                          <div class="form-actions">
+                                <button type="submit" class="btn btn-info">Invia iscrizione</button>
+                          </div>
+                        </div>
+
+                            {% csrf_token %}
+                            <div class="alert-error">
+                                {{ form.non_field_errors }}
+                            </div>
+                </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script lang="text/javascript">
+
+      $(document).ready(function(){
+    $("#id_provincia_residenza").chainedTo("#id_regione_residenza");
+    $("#id_provincia_domicilio").chainedTo("#id_regione_domicilio");
+    $("#id_provincia_studio").chainedTo("#id_regione_studio");
+
+    $("#id_citta_residenza").chainedTo("#id_provincia_residenza");
+    $("#id_citta_domicilio").chainedTo("#id_provincia_domicilio");
+    $("#id_citta_studio").chainedTo("#id_provincia_studio");
+        });
+
+    </script>   
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+         
+         $.datepicker.setDefaults(
+            $.extend(
+              {'dateFormat':'dd-mm-yy'},
+              $.datepicker.regional['it']
+            )
+          );
+
+         $( ".datepicker" ).datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: "1900:2012",
+            // You can put more options here.
+
+          });
+      });
+
+      
+  </script>
+{% endblock %}
+
+ 

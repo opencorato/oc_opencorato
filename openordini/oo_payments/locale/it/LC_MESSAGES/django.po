@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-30 23:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: __init__.py:3
+msgid "oo_payments"
+msgstr "pagamenti"
+
+#: __init__.py:4
+msgid "Oo_Payments"
+msgstr "Pagamenti"
+
+#: admin.py:17 models.py:28
+msgid "name"
+msgstr "nome"
+
+#: admin.py:22 models.py:89
+msgid "person"
+msgstr "persona"
+
+#: admin.py:77
+msgid "order label"
+msgstr "stato iscrizione"
+
+#: filters.py:8
+msgid "payed current year"
+msgstr "pagato anno corrente"
+
+#: filters.py:14
+msgid "Yes"
+msgstr "Sì"
+
+#: filters.py:15
+msgid "No"
+msgstr "No"
+
+#: forms.py:6 models.py:154
+msgid "payment"
+msgstr "pagamento"
+
+#: forms.py:18
+msgid "billing address"
+msgstr "indirizzo fatturazione"
+
+#: forms.py:19
+msgid "city"
+msgstr "città"
+
+#: forms.py:20
+msgid "postcode"
+msgstr "codice postale"
+
+#: models.py:21
+msgid "Euro"
+msgstr "Euro"
+
+#: models.py:22
+msgid "US Dollar"
+msgstr "Dollaro USA"
+
+#: models.py:29
+msgid "code"
+msgstr "codice"
+
+#: models.py:30
+msgid "institution"
+msgstr ""
+
+#: models.py:31
+msgid "net amount"
+msgstr "ammontare netto"
+
+#: models.py:32
+msgid "tax"
+msgstr "tasse"
+
+#: models.py:33 models.py:97
+msgid "currency"
+msgstr "valuta"
+
+#: models.py:80 models.py:118
+msgid "subscription plan"
+msgstr "tipologia di pagamento"
+
+#: models.py:81
+msgid "subscription plans"
+msgstr "tipologie di pagamenti"
+
+#: models.py:91 models.py:110 models.py:141
+msgid "order"
+msgstr "ordine"
+
+#: models.py:92
+msgid "sku"
+msgstr "sku"
+
+#: models.py:95
+msgid "quantity"
+msgstr "quantità"
+
+#: models.py:111
+msgid "orders"
+msgstr "ordini"
+
+#: models.py:116
+msgid "subscription begin"
+msgstr "inizio iscrizione"
+
+#: models.py:117
+msgid "subscription end"
+msgstr "fine iscrizione"
+
+#: models.py:132
+msgid "subscription order"
+msgstr "ordine iscrizione"
+
+#: models.py:133
+msgid "subscription orders"
+msgstr "ordini iscrizione"
+
+#: models.py:155
+msgid "payments"
+msgstr "pagamenti"
+
+#: models.py:161
+msgid "subscription"
+msgstr "iscrizione albo"
+
+#: models.py:162
+msgid "subscriptions"
+msgstr "iscrizioni albo"
+
+#~ msgid "%(plan)s - %(person)s - from: %(from)s - to: %(to)s"
+#~ msgstr "%(plan)s - %(person)s - da: %(from)s - a: %(to)s"

@@ -1,0 +1,113 @@
+  {% load thumbnail %}
+  <style type="text/css">
+    .endless_page_link, .endless_page_current{
+        float: left;
+        padding: 0 14px;
+        line-height: 32px;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-left-width: 0;
+        border-left-width: 1px;
+        -webkit-border-radius: 3px 0 0 3px;
+        -moz-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;
+        background-color: #FFF;
+    }
+  </style>       
+  {% load digg_paginator %}
+  {% if level == 1 %}<h1>{{ cur_committee.name }}</h1>{% else %}<h2>{{ cur_committee.name }}</h2>{% endif %}
+  <p>{{ cur_committee.description }}</p>
+
+  {% if level == 1 %}<hr>{% endif %}
+
+  <div class="party-people">
+    <div class="row-fluid">
+      {% comment %}Commitee leaders{% endcomment %}
+      <div class="span6">
+
+        <p>
+          {% if president %}
+            <a href="{{ president.charge.person.get_absolute_url }}">
+              <strong>{{ president.charge.person.full_name }}</strong>
+              {% if president.group %}
+                ({{ president.group.acronym }})
+              {% endif %}
+            </a><br/>
+            {{ president.get_charge_type_display }}
+          {% else %}
+          {% endif %}
+        </p>
+
+        {% for vp in vice_presidents %}
+          <p>
+            <a href="{{ vp.charge.person.get_absolute_url }}">
+              <strong>{{ vp.charge.person.full_name }}</strong>
+              {% if vp.group %}
+                ({{ vp.group.acronym }})
+              {% endif %}
+            </a><br/>
+            {{ vp.get_charge_type_display }}
+
+          </p>
+        {% endfor %}
+
+        <address>
+          {% for r in resources %}
+            {% if r.resource_type == 'URL' %}
+              {% if 'http://' not in r.value %}
+                {{ r.description }}: <a href="http://{{ r.value }}">{{ r.value }}</a><br/>
+              {%  else %}
+                {{ r.description }}: <a href="{{ r.value }}">{{ r.value }}</a><br/>
+              {% endif %}
+            {% else %}
+              {% if r.resource_type == 'EMAIL' %}
+                <a href="mailto:{{ r.value }}">{{ r.value }}</a><br/>
+              {%  else %}
+                {{ r.value }}<br/>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </address>
+        
+      </div>
+
+      {% comment %}Committee peoples{% endcomment %}
+
+      {% load endless %}
+
+      <div class="span6 endless_page_template">
+        <ul class="unstyled">
+      {% paginate 25 cur_members %}
+      {% for member in cur_members %}
+          {# your code to show the entry #}
+          <li style="line-height: 45px;" role="presentation" class="active">
+            {% if member.person.img %}
+                 {% thumbnail member.person.img "30x30" crop="center" as im %}
+                       <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}" class="thumb-left politician-picture">
+                 {% endthumbnail %}
+            {% else %}
+                  <img src="{{ STATIC_URL }}img/placehold/face_100.png" width="25" height="25" class="thumb-left politician-picture">
+            {% endif %}<a href="{{ member.person.get_absolute_url }}"><strong>{{ member.person.full_name }}</strong>
+              {% if member.group %}
+                ({{ member.group.acronym }})
+              {% endif %}</a></li>
+      {% endfor %}
+         
+        </ul>
+      </div>
+
+    <div>
+
+    {% get_pages %}
+      </br>
+      
+      {{ pages.first_as_arrow }}{% show_pages %}{{ pages.last_as_arrow }}
+      </br> </br> </br>
+       Iscritti visualizzati, 
+      da <strong>{{ pages.current_start_index }}</strong> a <strong>{{ pages.current_end_index }}</strong> di <strong>{{ pages.total_count }}</strong>
+      - Numero pagine [<strong>{{ pages|length }}</strong>]
+
+    </div>  
+    </div>
+  </div>
+

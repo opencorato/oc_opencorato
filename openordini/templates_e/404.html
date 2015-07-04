@@ -1,0 +1,33 @@
+{% extends "base_one_column.html" %}
+
+{% block body_class %}error{% endblock %}
+{% block title %}Pagina non trovata{% endblock %}
+
+{%  block access %}{% endblock %}
+{%  block main_navbar %}{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+
+        <div class="row-fluid">
+            <div class="span1">
+                <img src="{{ STATIC_URL }}img/error-bang.png" alt="Icona segnalazione errore"/>
+            </div>
+
+            <div class="span11">
+                <p>
+                Non abbiamo trovato quello che cerchi.<br/>
+                Per tornare indietro fai clik sul tasto del browser <br/>
+                oppure <a href="/">torna alla home page</a> del sito e ricomincia la navigazione.
+                </p>
+
+                <p>
+                Grazie,<br/>
+                lo staff di Open municipio
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}
