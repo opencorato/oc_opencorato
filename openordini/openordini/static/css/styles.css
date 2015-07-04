@@ -5779,3 +5779,5 @@ font-weight: 200;
 }
 
 .icon-obbligatorio:before {content: "\f05d";  color: #CCC;}
+
+#city-logo > img { margin-left: -50%; }
