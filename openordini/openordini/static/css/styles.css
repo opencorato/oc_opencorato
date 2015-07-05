@@ -5062,7 +5062,7 @@ table.stats th {
 .circle-fulldate {
   font-size: 18px;
   padding: 8px;
-  margin: 0px -14px 0px 9px;
+  margin: 0px 14px 0px 9px;
   font-weight: bold;
   text-align: center;
   display: inline-block;
