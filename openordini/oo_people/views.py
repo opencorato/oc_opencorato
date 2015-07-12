@@ -205,7 +205,7 @@ class OOPoliticianSearchView(PoliticianSearchView):
                 img_url = img.url
             except BaseException as e:
                 img_url = "http://%s/static/img/placehold/face_50.png#%s" % (current_site, e)
-            
+
             # manually build a dictionary to have more control on extra
             # data to show (i.e. data not from model Person)
             p_data = {
@@ -223,8 +223,8 @@ class OOPoliticianSearchView(PoliticianSearchView):
                 p_data["fields"]["extra_data"] = person.userprofile.userprofile.anagrafica.studio
             """
             
-            if person.userprofile and person.userprofile.userprofile:
-                pass #p_data["fields"]["extra_data"] = person.userprofile.userprofile.anagrafica.studio
+             #if person.userprofile and person.userprofile.userprofile:
+             #   pass #p_data["fields"]["extra_data"] = person.userprofile.userprofile.anagrafica.studio
 
 
             results.append(p_data)
