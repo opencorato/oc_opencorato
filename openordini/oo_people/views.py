@@ -205,7 +205,8 @@ class OOPoliticianSearchView(PoliticianSearchView):
             except BaseException as e:
                 img_url = "http://%s/static/img/placehold/face_50.png#%s" % (current_site, e)
 
-            print "trovato un nome %s" % (person.first_name)
+            print person.first_name
+
             # manually build a dictionary to have more control on extra
             # data to show (i.e. data not from model Person)
             p_data = {
