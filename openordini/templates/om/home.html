@@ -262,7 +262,7 @@
               return new_str;
           }
           $('#search-politician').typeahead({
-              source: function(typeahead, query) {
+               source: function(typeahead, query) {
                   $.ajax({
                       url: "{% url 'om_politician_search'  %}",
                       dataType: "json",
