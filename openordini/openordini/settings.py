@@ -235,3 +235,39 @@ IMPORT_DATE_FORMAT = "%d-%m-%Y"
 EMAIL_HOST_USER = "stafgnpop@psicologipuglia.it"
 EMAIL_HOST_PASSWORD = "P$901Q.e/idow"
 EMAIL_HOST = "mail.psicologipuglia.it"
+
+RESPONSIVE_MEDIA_QUERIES = {
+    'small': {
+        'verbose_name': 'Small screens',
+        'min_width': None,
+        'max_width': 640,
+    },
+    'medium': {
+        'verbose_name': 'Medium screens',
+        'min_width': 641,
+        'max_width': 1024,
+    },
+    'large': {
+        'verbose_name': 'Large screens',
+        'min_width': 1025,
+        'max_width': 1440,
+    },
+    'xlarge': {
+        'verbose_name': 'XLarge screens',
+        'min_width': 1441,
+        'max_width': 1920,
+    },
+    'xxlarge': {
+        'verbose_name': 'XXLarge screens',
+        'min_width': 1921,
+        'max_width': None,
+    },
+    'iphone': {
+        'verbose_name': 'iPhone Retina',
+        'min_width': 320,   # mobile first queries
+        'pixel_ratio': 2
+    },
+}
+
+
+
