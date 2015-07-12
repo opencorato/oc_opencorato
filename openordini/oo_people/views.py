@@ -195,7 +195,8 @@ class OOPoliticianSearchView(PoliticianSearchView):
 
         # build persons array,substituting the img with a 50x50 thumbnail
         # and returning the absolute url of the thumbnail
-    
+        print person.first_name
+        
         results = []
         for person in persons:
 
@@ -204,8 +205,7 @@ class OOPoliticianSearchView(PoliticianSearchView):
                 img_url = img.url
             except BaseException as e:
                 img_url = "http://%s/static/img/placehold/face_50.png#%s" % (current_site, e)
-
-            print "trovato un nome %s" % (person.first_name)
+            
             # manually build a dictionary to have more control on extra
             # data to show (i.e. data not from model Person)
             p_data = {
