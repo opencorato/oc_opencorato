@@ -16375,3 +16375,1406 @@ ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Inf
 [pid: 6145|app: 0|req: 7/35] 151.26.2.172 () {42 vars in 834 bytes} [Sun Jul 12 18:38:21 2015] GET / => generated 15450 bytes in 122 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
 [pid: 6144|app: 0|req: 19/36] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 18:42:06 2015] GET /favicon.ico => generated 6918 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
 [pid: 6144|app: 0|req: 20/37] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 18:52:06 2015] GET /favicon.ico => generated 6918 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 11/38] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 19:02:06 2015] GET /favicon.ico => generated 6918 bytes in 22 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 21/39] 151.26.2.172 () {42 vars in 834 bytes} [Sun Jul 12 19:10:42 2015] GET / => generated 15450 bytes in 116 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 22/40] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 19:26:18 2015] GET /favicon.ico => generated 6918 bytes in 17 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 23/41] 151.26.2.172 () {42 vars in 834 bytes} [Sun Jul 12 19:33:01 2015] GET / => generated 15450 bytes in 115 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 24/42] 151.26.2.172 () {44 vars in 856 bytes} [Sun Jul 12 19:33:04 2015] GET / => generated 15450 bytes in 109 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 25/43] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 19:33:05 2015] GET /favicon.ico => generated 6918 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 12/44] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:33:15 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 47 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 26/45] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:33:16 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 6910 bytes in 36 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 27/46] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:33:17 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 8/47] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:33:19 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 6910 bytes in 48 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 28/48] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:33:19 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 29/49] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 19:33:19 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 9/50] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 19:33:20 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 30/51] 151.26.2.172 () {42 vars in 834 bytes} [Sun Jul 12 19:33:26 2015] GET / => generated 15450 bytes in 172 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 13/52] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:33:36 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 10/53] 151.26.2.172 () {42 vars in 834 bytes} [Sun Jul 12 19:33:36 2015] GET / => generated 15450 bytes in 122 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 31/54] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:33:36 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 32/55] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:33:40 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 11/56] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:33:40 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 33/57] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:33:40 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 34/58] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:33:41 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 35/59] 151.26.2.172 () {42 vars in 834 bytes} [Sun Jul 12 19:33:50 2015] GET / => generated 15450 bytes in 112 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 14/60] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:36:05 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 39 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 36/61] 151.26.2.172 () {44 vars in 856 bytes} [Sun Jul 12 19:36:05 2015] GET / => generated 15450 bytes in 119 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 15/62] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 19:36:17 2015] GET /favicon.ico => generated 6918 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 16/63] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:36:21 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 37/64] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 19:37:00 2015] GET / => generated 15450 bytes in 115 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 38/65] 151.26.2.172 () {40 vars in 754 bytes} [Sun Jul 12 19:37:00 2015] GET /favicon.ico => generated 6918 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 17/66] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:38:54 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 36 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 12/67] 151.26.2.172 () {40 vars in 846 bytes} [Sun Jul 12 19:38:55 2015] GET /accounts/login/?next=/ => generated 10446 bytes in 78 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 13/68] 151.26.2.172 () {48 vars in 1034 bytes} [Sun Jul 12 19:38:58 2015] POST /accounts/login/ => generated 0 bytes in 228 msecs (HTTP/1.1 302) 7 headers in 356 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 39/69] 151.26.2.172 () {42 vars in 856 bytes} [Sun Jul 12 19:38:58 2015] GET / => generated 16406 bytes in 155 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 14/70] 151.26.2.172 () {40 vars in 815 bytes} [Sun Jul 12 19:39:02 2015] GET /admin/ => generated 48650 bytes in 701 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 18/71] 151.26.2.172 () {40 vars in 819 bytes} [Sun Jul 12 19:39:04 2015] GET /admin_media/img/admin/nav-bg.gif => generated 6918 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 40/72] 151.26.2.172 () {40 vars in 849 bytes} [Sun Jul 12 19:39:22 2015] GET /admin/people/person/ => generated 27508 bytes in 445 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 41/73] 151.26.2.172 () {40 vars in 778 bytes} [Sun Jul 12 19:39:23 2015] GET /admin/jsi18n/ => generated 5418 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 42/74] 151.26.2.172 () {44 vars in 935 bytes} [Sun Jul 12 19:41:17 2015] GET /admin/people/person/ => generated 23755 bytes in 365 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 19/75] 151.26.2.172 () {42 vars in 809 bytes} [Sun Jul 12 19:41:18 2015] GET /admin/jsi18n/ => generated 5418 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 20/76] 151.26.2.172 () {40 vars in 841 bytes} [Sun Jul 12 19:41:30 2015] GET / => generated 16406 bytes in 168 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 43/77] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:41:34 2015] GET /people/search/?max_rows=10&key=l&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 15/78] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:41:34 2015] GET /people/search/?max_rows=10&key=lu&ajax=1 => generated 6910 bytes in 198 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 44/79] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:41:35 2015] GET /people/search/?max_rows=10&key=lui&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 16/80] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:41:38 2015] GET /people/search/?max_rows=10&key=lu&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 45/81] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:41:39 2015] GET /people/search/?max_rows=10&key=l&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 46/82] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 19:41:39 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 47 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 47/83] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:41:40 2015] GET /people/search/?max_rows=10&key=l&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 48/84] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:41:40 2015] GET /people/search/?max_rows=10&key=lu&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 17/85] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:41:40 2015] GET /people/search/?max_rows=10&key=lui&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 21/86] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:41:47 2015] GET /people/search/?max_rows=10&key=lui&ajax=1 => generated 6910 bytes in 36 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 49/87] 151.26.2.172 () {42 vars in 872 bytes} [Sun Jul 12 19:41:53 2015] GET / => generated 16406 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 22/88] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:42:10 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 18/89] 151.26.2.172 () {40 vars in 793 bytes} [Sun Jul 12 19:42:10 2015] GET / => generated 16406 bytes in 115 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 19/90] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 19:46:18 2015] GET /favicon.ico => generated 6918 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 20/91] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:52:22 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 41 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 50/92] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 19:52:22 2015] GET / => generated 16406 bytes in 117 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 21/93] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 19:52:28 2015] GET / => generated 16406 bytes in 116 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 22/94] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 19:52:29 2015] GET /favicon.ico => generated 6918 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 23/95] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 19:52:36 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 38 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 23/96] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:52:38 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 51/97] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:52:38 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 24/98] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:52:38 2015] GET /people/search/?max_rows=10&key=Ga&ajax=1 => generated 6910 bytes in 194 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 52/99] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:52:39 2015] GET /people/search/?max_rows=10&key=Gae&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 24/100] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 19:52:40 2015] GET /people/search/?max_rows=10&key=Gaet&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 53/101] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 19:52:40 2015] GET /people/search/?max_rows=10&key=Gaeta&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 54/102] 151.26.2.172 () {42 vars in 901 bytes} [Sun Jul 12 19:52:41 2015] GET /people/search/?max_rows=10&key=Gaetan&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 55/103] 151.26.2.172 () {42 vars in 903 bytes} [Sun Jul 12 19:52:41 2015] GET /people/search/?max_rows=10&key=Gaetano&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 25/104] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 19:56:18 2015] GET /favicon.ico => generated 6918 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 26/105] 151.26.2.172 () {42 vars in 903 bytes} [Sun Jul 12 19:56:23 2015] GET /people/search/?max_rows=10&key=Gaetano&ajax=1 => generated 6910 bytes in 37 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 25/106] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 19:56:23 2015] GET / => generated 16406 bytes in 127 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 56/107] 151.26.2.172 () {42 vars in 903 bytes} [Sun Jul 12 19:56:24 2015] GET /people/search/?max_rows=10&key=Gaetano&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 57/108] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 19:56:25 2015] GET /favicon.ico => generated 6918 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 58/109] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 19:56:30 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 27/110] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 19:56:30 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 59/111] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 19:56:30 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 60/112] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 20:06:18 2015] GET /favicon.ico => generated 6918 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 61/113] 151.26.2.172 () {44 vars in 902 bytes} [Sun Jul 12 20:09:57 2015] GET /admin/people/person/ => generated 23755 bytes in 369 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 28/114] 151.26.2.172 () {44 vars in 831 bytes} [Sun Jul 12 20:09:58 2015] GET /admin/jsi18n/ => generated 5418 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 62/115] 151.26.2.172 () {44 vars in 827 bytes} [Sun Jul 12 20:09:59 2015] GET /favicon.ico => generated 6918 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 29/116] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:00 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 52 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 63/117] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 20:10:00 2015] GET / => generated 16406 bytes in 186 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 26/118] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:00 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 41 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 30/119] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 20:10:01 2015] GET /favicon.ico => generated 6918 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 64/120] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:05 2015] GET /people/search/?max_rows=10&key=A&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (2 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 31/121] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:05 2015] GET /people/search/?max_rows=10&key=A&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 65/122] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:06 2015] GET /people/search/?max_rows=10&key=An&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 27/123] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:07 2015] GET /people/search/?max_rows=10&key=A&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 66/124] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 20:10:08 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 32/125] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:09 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 67/126] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:09 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 28/127] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:10 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 29/128] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:10:10 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 33/129] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:11 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 48 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 68/130] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:11 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 69/131] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:11 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 70/132] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 20:10:11 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 71/133] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:12 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 72/134] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:12 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 34/135] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:13 2015] GET /people/search/?max_rows=10&key=Ga&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 73/136] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:14 2015] GET /people/search/?max_rows=10&key=Gae&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 30/137] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:10:14 2015] GET /people/search/?max_rows=10&key=Gaet&ajax=1 => generated 6910 bytes in 153 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 74/138] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:10:17 2015] GET /people/search/?max_rows=10&key=Gaet&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 75/139] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:32 2015] GET /people/search/?max_rows=10&key=Gae&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 31/140] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:33 2015] GET /people/search/?max_rows=10&key=Ga&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 76/141] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:33 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 77/142] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 20:10:33 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 78/143] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:34 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 79/144] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:34 2015] GET /people/search/?max_rows=10&key=GA&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 35/145] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:34 2015] GET /people/search/?max_rows=10&key=GA&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 80/146] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:34 2015] GET /people/search/?max_rows=10&key=GAe&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 81/147] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:35 2015] GET /people/search/?max_rows=10&key=GA&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 36/148] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:35 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 82/149] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:35 2015] GET /people/search/?max_rows=10&key=Ga&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 32/150] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:36 2015] GET /people/search/?max_rows=10&key=Gae&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 83/151] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:10:37 2015] GET /people/search/?max_rows=10&key=Gaet&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 33/152] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 20:10:37 2015] GET /people/search/?max_rows=10&key=Gaeta&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 84/153] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:10:39 2015] GET /people/search/?max_rows=10&key=Gaet&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 34/154] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:39 2015] GET /people/search/?max_rows=10&key=Gae&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 37/155] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:39 2015] GET /people/search/?max_rows=10&key=Ga&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 85/156] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:39 2015] GET /people/search/?max_rows=10&key=G&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 35/157] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 20:10:40 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 36/158] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:10:40 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 38/159] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:10:40 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 86/160] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:10:41 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 87/161] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:10:42 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 88/162] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:10:44 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 39/163] 151.26.2.172 () {38 vars in 839 bytes} [Sun Jul 12 20:11:04 2015] GET /people/search/?max_rows=10&key=A&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 89/164] 151.26.2.172 () {38 vars in 845 bytes} [Sun Jul 12 20:11:29 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 40/165] 151.26.2.172 () {38 vars in 843 bytes} [Sun Jul 12 20:11:44 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 90/166] 151.26.2.172 () {40 vars in 874 bytes} [Sun Jul 12 20:11:59 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 91/167] 151.26.2.172 () {38 vars in 841 bytes} [Sun Jul 12 20:12:07 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 37/168] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 20:16:18 2015] GET /favicon.ico => generated 6918 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 38/169] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 20:26:18 2015] GET /favicon.ico => generated 6918 bytes in 18 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 39/170] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 20:36:18 2015] GET /favicon.ico => generated 6918 bytes in 19 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 40/171] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 20:46:18 2015] GET /favicon.ico => generated 6918 bytes in 17 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 41/172] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 20:47:48 2015] GET / => generated 16406 bytes in 124 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 42/173] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:47:58 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 36 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 41/174] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 20:48:00 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 44 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 92/175] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:48:01 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 39 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 43/176] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 20:48:01 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 44/177] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 20:48:01 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 42/178] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:48:01 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 43/179] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 20:50:38 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 93/180] 151.26.2.172 () {40 vars in 793 bytes} [Sun Jul 12 20:50:43 2015] GET / => generated 16406 bytes in 133 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 44/181] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:51:10 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 94/182] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 20:51:11 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 95/183] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 20:56:18 2015] GET /favicon.ico => generated 6918 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 96/184] 91.253.167.185 () {42 vars in 682 bytes} [Sun Jul 12 20:57:08 2015] GET /institutions/city-government/ => generated 30164 bytes in 258 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 45/185] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 20:59:38 2015] GET / => generated 16435 bytes in 124 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 97/186] 151.26.2.172 () {40 vars in 793 bytes} [Sun Jul 12 20:59:55 2015] GET / => generated 16435 bytes in 115 msecs (HTTP/1.1 200) 3 headers in 195 bytes (2 switches on core 0)
+[pid: 6145|app: 0|req: 46/187] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:01:05 2015] GET / => generated 16421 bytes in 114 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 98/188] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:01:55 2015] GET / => generated 16436 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 45/189] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:01:55 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 134 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 99/190] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:04:07 2015] GET / => generated 16457 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 100/191] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:05:26 2015] GET / => generated 16454 bytes in 113 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 46/192] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 21:06:18 2015] GET /favicon.ico => generated 6918 bytes in 17 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 47/193] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:07:02 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 38 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 101/194] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:07:02 2015] GET / => generated 16519 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 47/195] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:07:15 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 37 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 102/196] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:07:16 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 48/197] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:07:17 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 49/198] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:07:17 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 48/199] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:07:17 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 103/200] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:07:19 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 50/201] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:07:19 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 51/202] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:07:19 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 49/203] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:07:20 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 42 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 104/204] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:07:20 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 105/205] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:07:20 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 50/206] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 21:07:21 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 106/207] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:07:21 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 107/208] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:07:24 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 108/209] 151.26.2.172 () {40 vars in 793 bytes} [Sun Jul 12 21:07:28 2015] GET / => generated 16519 bytes in 111 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 109/210] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:08:44 2015] GET / => generated 16519 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 110/211] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:09:01 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 49 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 111/212] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:10:58 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 52/213] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:10:58 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 112/214] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:10:58 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 51/215] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:10:59 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 53/216] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:10:59 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 54/217] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:10:59 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 52/218] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 21:11:00 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 113/219] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:11:00 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 114/220] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:11:24 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 55/221] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 21:16:18 2015] GET /favicon.ico => generated 6918 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 115/222] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 21:26:18 2015] GET /favicon.ico => generated 6918 bytes in 17 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6143|app: 0|req: 56/223] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:26:30 2015] GET / => generated 16451 bytes in 126 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 57/224] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:26:46 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 116/225] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:26:47 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 6910 bytes in 35 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 117/226] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:26:49 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 118/227] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:26:50 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 53/228] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 21:36:18 2015] GET /favicon.ico => generated 6918 bytes in 19 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+[pid: 6145|app: 0|req: 54/229] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 21:36:45 2015] GET / => generated 16451 bytes in 123 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 119/230] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 21:36:45 2015] GET / => generated 16451 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 120/231] 151.26.2.172 () {40 vars in 754 bytes} [Sun Jul 12 21:36:46 2015] GET /favicon.ico => generated 6918 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 55/232] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:36:49 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 46 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 121/233] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:36:49 2015] GET / => generated 16451 bytes in 126 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+Sun Jul 12 21:36:49 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /people/search/?max_rows=10&key=&ajax=1 (ip 151.26.2.172) !!!
+Sun Jul 12 21:36:49 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /people/search/?max_rows=10&key=&ajax=1 (151.26.2.172)
+IOError: write error
+[pid: 6143|app: 0|req: 58/234] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:36:49 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 0 bytes in 40 msecs (HTTP/1.1 500) 1 headers in 0 bytes (0 switches on core 0)
+[pid: 6144|app: 0|req: 122/235] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 21:36:50 2015] GET /favicon.ico => generated 6918 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 123/236] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:36:51 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 43 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 124/237] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:36:53 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 125/238] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:36:55 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 126/239] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 21:36:56 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 127/240] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:36:56 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 6910 bytes in 39 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 56/241] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 21:36:57 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 128/242] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:36:57 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 59/243] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:36:57 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 57/244] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:36:58 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 129/245] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:36:58 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 60/246] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:36:59 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 130/247] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:36:59 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 131/248] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:37:18 2015] GET / => generated 16451 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 6144|app: 0|req: 132/249] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 21:37:18 2015] GET /favicon.ico => generated 6918 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 66 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 133/250] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:37:21 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 6910 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 134/251] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:37:22 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6145|app: 0|req: 58/252] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:37:22 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 6910 bytes in 32 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 135/253] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 21:37:22 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6143|app: 0|req: 61/254] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:37:23 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 6910 bytes in 42 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 136/255] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:37:24 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 6910 bytes in 31 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+ctx: [{'False': False, 'None': None, 'True': True}, {'main_city': u'CORATO - Informazione libera', 'main_city_website': 'http://www.opencorato.org', 'STATIC_URL': '/static/'}]
+[pid: 6144|app: 0|req: 137/256] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 21:37:31 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 6910 bytes in 33 msecs (HTTP/1.1 500) 1 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 21:38:29 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 8444 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8444)
+spawned uWSGI worker 1 (pid: 8446, cores: 1)
+spawned uWSGI worker 2 (pid: 8447, cores: 1)
+spawned uWSGI worker 3 (pid: 8448, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 8448|app: 0|req: 1/1] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:38:34 2015] GET / => generated 16707 bytes in 2238 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+Luigi
+Sergio
+Gaetano
+Lorena
+Matteo
+Luigi
+Giuseppe
+Ignazio
+Giuseppe
+Francesco
+[pid: 8448|app: 0|req: 2/2] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:38:38 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 1895 bytes in 33 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8446|app: 0|req: 1/3] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 21:38:37 2015] GET /favicon.ico => generated 9025 bytes in 1979 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 21:46:00 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 8659 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8659)
+spawned uWSGI worker 1 (pid: 8661, cores: 1)
+spawned uWSGI worker 2 (pid: 8662, cores: 1)
+spawned uWSGI worker 3 (pid: 8663, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 8661|app: 0|req: 1/1] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:46:10 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 1895 bytes in 2069 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 8663|app: 0|req: 1/2] 151.26.2.172 () {42 vars in 815 bytes} [Sun Jul 12 21:46:10 2015] GET / => generated 16663 bytes in 2364 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 1/3] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:46:13 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 1895 bytes in 2036 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 2/4] 151.26.2.172 () {44 vars in 807 bytes} [Sun Jul 12 21:46:17 2015] GET /favicon.ico => generated 9025 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (2 switches on core 0)
+[pid: 8662|app: 0|req: 2/5] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 21:46:18 2015] GET /favicon.ico => generated 9025 bytes in 19 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 2/6] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:46:19 2015] GET /people/search/?max_rows=10&key=g&ajax=1 => generated 1895 bytes in 18 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 3/7] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:46:25 2015] GET /people/search/?max_rows=10&key=ga&ajax=1 => generated 380 bytes in 15 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 3/8] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:46:25 2015] GET /people/search/?max_rows=10&key=gae&ajax=1 => generated 186 bytes in 18 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 4/9] 151.26.2.172 () {42 vars in 897 bytes} [Sun Jul 12 21:46:26 2015] GET /people/search/?max_rows=10&key=gaet&ajax=1 => generated 186 bytes in 13 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 5/10] 151.26.2.172 () {42 vars in 899 bytes} [Sun Jul 12 21:46:26 2015] GET /people/search/?max_rows=10&key=gaeta&ajax=1 => generated 186 bytes in 12 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 6/11] 151.26.2.172 () {40 vars in 875 bytes} [Sun Jul 12 21:46:29 2015] GET /people/gaetano-nesta-23111966-corato => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 148 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 7/12] 151.26.2.172 () {40 vars in 877 bytes} [Sun Jul 12 21:46:29 2015] GET /people/gaetano-nesta-23111966-corato/ => generated 15179 bytes in 415 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 8/13] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:46:45 2015] GET /people/search/?max_rows=10&key=n&ajax=1 => generated 1901 bytes in 123 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 9/14] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:46:45 2015] GET /people/search/?max_rows=10&key=ne&ajax=1 => generated 1335 bytes in 17 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 10/15] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:46:45 2015] GET /people/search/?max_rows=10&key=nes&ajax=1 => generated 186 bytes in 13 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 11/16] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:46:47 2015] GET /people/search/?max_rows=10&key=ne&ajax=1 => generated 1335 bytes in 16 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 12/17] 151.26.2.172 () {40 vars in 877 bytes} [Sun Jul 12 21:46:50 2015] GET /people/adele-mintrone-17031974-corato => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 149 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 13/18] 151.26.2.172 () {40 vars in 879 bytes} [Sun Jul 12 21:46:50 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15180 bytes in 169 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 14/19] 151.26.2.172 () {40 vars in 883 bytes} [Sun Jul 12 21:47:04 2015] GET /institutions/council/ => generated 72234 bytes in 580 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 15/20] 151.26.2.172 () {40 vars in 824 bytes} [Sun Jul 12 21:47:11 2015] GET / => generated 16663 bytes in 123 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 16/21] 151.26.2.172 () {44 vars in 877 bytes} [Sun Jul 12 21:55:00 2015] GET / => generated 16663 bytes in 119 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 17/22] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:55:06 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 75 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 4/23] 151.26.2.172 () {42 vars in 895 bytes} [Sun Jul 12 21:55:07 2015] GET /people/search/?max_rows=10&key=ant&ajax=1 => generated 184 bytes in 16 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 18/24] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 21:55:08 2015] GET /people/search/?max_rows=10&key=an&ajax=1 => generated 1915 bytes in 62 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 5/25] 151.26.2.172 () {40 vars in 871 bytes} [Sun Jul 12 21:55:10 2015] GET /people/antonio-vangi-12071974-bari => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 146 bytes (1 switches on core 0)
+Internal Server Error: /people/antonio-vangi-12071974-bari/
+Traceback (most recent call last):
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/views/generic/detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "./openordini/oo_people/views.py", line 41, in get_context_data
+    ctx = super(OOPoliticianDetailView, self).get_context_data(**kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/src/open-municipio/open_municipio/people/views.py", line 343, in get_context_data
+    historical_groupcharges = charge.historical_groupcharges #person.historical_groupcharges
+AttributeError: 'NoneType' object has no attribute 'historical_groupcharges'
+[pid: 8663|app: 0|req: 6/26] 151.26.2.172 () {40 vars in 873 bytes} [Sun Jul 12 21:55:10 2015] GET /people/antonio-vangi-12071974-bari/ => generated 94664 bytes in 204 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 7/27] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:55:17 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 30 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 3/28] 151.26.2.172 () {40 vars in 879 bytes} [Sun Jul 12 21:55:18 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15180 bytes in 304 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 19/29] 151.26.2.172 () {40 vars in 841 bytes} [Sun Jul 12 21:56:02 2015] GET / => generated 16663 bytes in 118 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 20/30] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:56:05 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 19 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 8/31] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:56:09 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 1888 bytes in 20 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 9/32] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:56:10 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 1888 bytes in 17 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 21/33] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 21:56:18 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 22/34] 151.26.2.172 () {44 vars in 894 bytes} [Sun Jul 12 21:59:04 2015] GET / => generated 16663 bytes in 122 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 23/35] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:59:08 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 18 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 24/36] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:59:12 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 1888 bytes in 18 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 4/37] 151.26.2.172 () {42 vars in 889 bytes} [Sun Jul 12 21:59:12 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 1888 bytes in 31 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 25/38] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 21:59:47 2015] GET /people/search/?max_rows=10&key=c&ajax=1 => generated 1890 bytes in 44 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 10/39] 151.26.2.172 () {40 vars in 879 bytes} [Sun Jul 12 21:59:54 2015] GET /people/rosalba-marcone-16031988-corato => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 150 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 11/40] 151.26.2.172 () {40 vars in 881 bytes} [Sun Jul 12 21:59:54 2015] GET /people/rosalba-marcone-16031988-corato/ => generated 19562 bytes in 388 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 26/41] 151.26.2.172 () {40 vars in 922 bytes} [Sun Jul 12 22:00:28 2015] GET /institutions/groups/partito-democratico/ => generated 23112 bytes in 156 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 27/42] 151.26.2.172 () {40 vars in 853 bytes} [Sun Jul 12 22:00:32 2015] GET /acts/ => generated 15369 bytes in 546 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 28/43] 151.26.2.172 () {40 vars in 839 bytes} [Sun Jul 12 22:00:45 2015] GET /acts/?q=&person= => generated 15525 bytes in 210 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 29/44] 151.26.2.172 () {40 vars in 850 bytes} [Sun Jul 12 22:00:48 2015] GET /acts/?q=&person= => generated 15525 bytes in 129 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 30/45] 151.26.2.172 () {40 vars in 862 bytes} [Sun Jul 12 22:00:52 2015] GET /acts/?q=lavori&person= => generated 15847 bytes in 141 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 31/46] 151.26.2.172 () {40 vars in 825 bytes} [Sun Jul 12 22:00:59 2015] GET / => generated 16663 bytes in 116 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 5/47] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 22:01:02 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 21 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 32/48] 151.26.2.172 () {40 vars in 881 bytes} [Sun Jul 12 22:01:14 2015] GET /people/massimo-mazzilli-20021965-corato => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 151 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 33/49] 151.26.2.172 () {40 vars in 883 bytes} [Sun Jul 12 22:01:14 2015] GET /people/massimo-mazzilli-20021965-corato/ => generated 15220 bytes in 170 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 6/50] 151.26.2.172 () {40 vars in 885 bytes} [Sun Jul 12 22:02:07 2015] GET /institutions/council/ => generated 72234 bytes in 481 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 34/51] 151.26.2.172 () {40 vars in 824 bytes} [Sun Jul 12 22:02:22 2015] GET / => generated 16663 bytes in 119 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 35/52] 151.26.2.172 () {40 vars in 817 bytes} [Sun Jul 12 22:02:26 2015] GET /people/ => generated 13131 bytes in 191 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 36/53] 151.26.2.172 () {42 vars in 848 bytes} [Sun Jul 12 22:03:27 2015] GET /people/ => generated 13131 bytes in 173 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 12/54] 151.26.2.172 () {42 vars in 848 bytes} [Sun Jul 12 22:04:17 2015] GET /people/ => generated 13131 bytes in 176 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 37/55] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 22:06:18 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 38/56] 66.249.81.167 () {46 vars in 901 bytes} [Sun Jul 12 22:07:50 2015] GET / => generated 16663 bytes in 121 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 39/57] 66.249.81.167 () {48 vars in 893 bytes} [Sun Jul 12 22:07:51 2015] GET /favicon.ico => generated 9025 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 40/58] 66.249.81.171 () {50 vars in 1030 bytes} [Sun Jul 12 22:08:03 2015] GET /people/search/?max_rows=10&key=A&ajax=1 => generated 1900 bytes in 18 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 41/59] 66.249.81.171 () {50 vars in 1028 bytes} [Sun Jul 12 22:08:20 2015] GET /people/search/?max_rows=10&key=&ajax=1 => generated 1888 bytes in 19 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 42/60] 66.249.81.171 () {50 vars in 1030 bytes} [Sun Jul 12 22:08:21 2015] GET /people/search/?max_rows=10&key=B&ajax=1 => generated 1528 bytes in 88 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 43/61] 66.249.81.171 () {50 vars in 1032 bytes} [Sun Jul 12 22:08:31 2015] GET /people/search/?max_rows=10&key=Be&ajax=1 => generated 204 bytes in 14 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 44/62] 66.249.81.175 () {50 vars in 1032 bytes} [Sun Jul 12 22:08:31 2015] GET /people/search/?max_rows=10&key=Be&ajax=1 => generated 204 bytes in 13 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 45/63] 66.249.81.167 () {48 vars in 1034 bytes} [Sun Jul 12 22:08:32 2015] GET /people/daniele-de-benedittis-16051981-terlizzi => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 158 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 46/64] 66.249.81.175 () {48 vars in 1036 bytes} [Sun Jul 12 22:08:32 2015] GET /people/daniele-de-benedittis-16051981-terlizzi/ => generated 19450 bytes in 213 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 7/65] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 22:16:18 2015] GET /favicon.ico => generated 9025 bytes in 17 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 47/66] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 22:26:18 2015] GET /favicon.ico => generated 9025 bytes in 18 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 48/67] 151.26.2.172 () {44 vars in 935 bytes} [Sun Jul 12 22:27:45 2015] GET /admin/people/person/ => generated 27496 bytes in 453 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 49/68] 151.26.2.172 () {42 vars in 809 bytes} [Sun Jul 12 22:27:45 2015] GET /admin/jsi18n/ => generated 5418 bytes in 21 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 8/69] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 22:36:18 2015] GET /favicon.ico => generated 9025 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+Internal Server Error: /people/
+Traceback (most recent call last):
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/response.py", line 82, in rendered_content
+    content = template.render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 102, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 99, in get_parent
+    return get_template(parent)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 917, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 186, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+[pid: 8662|app: 0|req: 50/70] 151.26.2.172 () {44 vars in 870 bytes} [Sun Jul 12 22:39:42 2015] GET /people/ => generated 221152 bytes in 793 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+Sun Jul 12 22:40:43 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 151.26.2.172) !!!
+Sun Jul 12 22:40:43 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (151.26.2.172)
+IOError: write error
+[pid: 8662|app: 0|req: 51/71] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 22:40:43 2015] GET / => generated 0 bytes in 121 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 8661|app: 0|req: 9/72] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 22:40:43 2015] GET / => generated 16663 bytes in 142 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 52/73] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 22:40:49 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 17 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 13/74] 151.26.2.172 () {40 vars in 895 bytes} [Sun Jul 12 22:40:50 2015] GET /people/daniele-de-benedittis-16051981-terlizzi => generated 0 bytes in 3 msecs (HTTP/1.1 301) 2 headers in 158 bytes (1 switches on core 0)
+Internal Server Error: /people/daniele-de-benedittis-16051981-terlizzi/
+Traceback (most recent call last):
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = response.render()
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/response.py", line 82, in rendered_content
+    content = template.render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 830, in render
+    bit = self.render_node(node, context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/debug.py", line 74, in render_node
+    return node.render(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 102, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 99, in get_parent
+    return get_template(parent)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 917, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 186, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+[pid: 8663|app: 0|req: 14/75] 151.26.2.172 () {40 vars in 897 bytes} [Sun Jul 12 22:40:50 2015] GET /people/daniele-de-benedittis-16051981-terlizzi/ => generated 230273 bytes in 586 msecs (HTTP/1.1 500) 2 headers in 77 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 15/76] 151.26.2.172 () {44 vars in 950 bytes} [Sun Jul 12 22:42:54 2015] GET /people/daniele-de-benedittis-16051981-terlizzi/ => generated 19452 bytes in 212 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 16/77] 151.26.2.172 () {44 vars in 854 bytes} [Sun Jul 12 22:42:55 2015] GET /favicon.ico => generated 9025 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 17/78] 151.26.2.172 () {44 vars in 950 bytes} [Sun Jul 12 22:43:49 2015] GET /people/daniele-de-benedittis-16051981-terlizzi/ => generated 19452 bytes in 212 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 53/79] 151.26.2.172 () {40 vars in 887 bytes} [Sun Jul 12 22:44:28 2015] GET /people/daniele-de-benedittis-16051981-terlizzi/ => generated 19452 bytes in 215 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 54/80] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 22:46:18 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 18/81] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 22:50:31 2015] GET / => generated 16663 bytes in 127 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 55/82] 151.26.2.172 () {44 vars in 935 bytes} [Sun Jul 12 22:52:09 2015] GET /admin/people/person/ => generated 23743 bytes in 388 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 10/83] 151.26.2.172 () {42 vars in 809 bytes} [Sun Jul 12 22:52:09 2015] GET /admin/jsi18n/ => generated 5418 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 56/84] 151.26.2.172 () {40 vars in 887 bytes} [Sun Jul 12 22:52:27 2015] GET /people/daniele-de-benedittis-16051981-terlizzi/ => generated 19452 bytes in 219 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 57/85] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 22:56:18 2015] GET /favicon.ico => generated 9025 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 58/86] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 22:59:20 2015] GET / => generated 16663 bytes in 123 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 11/87] 151.26.2.172 () {40 vars in 754 bytes} [Sun Jul 12 22:59:21 2015] GET /favicon.ico => generated 9025 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 59/88] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 22:59:23 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 17 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 19/89] 151.26.2.172 () {40 vars in 871 bytes} [Sun Jul 12 22:59:25 2015] GET /people/anita-musto-27071987-corato => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 146 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 20/90] 151.26.2.172 () {40 vars in 873 bytes} [Sun Jul 12 22:59:25 2015] GET /people/anita-musto-27071987-corato/ => generated 15052 bytes in 167 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 60/91] 151.26.2.172 () {44 vars in 926 bytes} [Sun Jul 12 23:00:36 2015] GET /people/anita-musto-27071987-corato/ => generated 15052 bytes in 169 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 12/92] 151.26.2.172 () {44 vars in 842 bytes} [Sun Jul 12 23:00:37 2015] GET /favicon.ico => generated 9025 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 61/93] 151.26.2.172 () {40 vars in 838 bytes} [Sun Jul 12 23:00:41 2015] GET / => generated 16663 bytes in 124 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 62/94] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 23:00:42 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 17 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 13/95] 151.26.2.172 () {40 vars in 879 bytes} [Sun Jul 12 23:00:44 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15182 bytes in 297 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 63/96] 151.26.2.172 () {40 vars in 884 bytes} [Sun Jul 12 23:02:31 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15182 bytes in 166 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 64/97] 151.26.2.172 () {38 vars in 670 bytes} [Sun Jul 12 23:02:46 2015] GET / => generated 15707 bytes in 126 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 65/98] 151.26.2.172 () {38 vars in 692 bytes} [Sun Jul 12 23:02:48 2015] GET /favicon.ico => generated 9025 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 66/99] 151.26.2.172 () {42 vars in 810 bytes} [Sun Jul 12 23:02:49 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 18 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 67/100] 151.26.2.172 () {40 vars in 785 bytes} [Sun Jul 12 23:02:50 2015] GET /people/adele-mintrone-17031974-corato => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 149 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 68/101] 151.26.2.172 () {40 vars in 787 bytes} [Sun Jul 12 23:02:50 2015] GET /people/adele-mintrone-17031974-corato/ => generated 12049 bytes in 154 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 69/102] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 23:06:18 2015] GET /favicon.ico => generated 9025 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 70/103] 151.26.2.172 () {36 vars in 675 bytes} [Sun Jul 12 23:06:23 2015] GET / => generated 15707 bytes in 117 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 8661|app: 0|req: 14/104] 151.26.2.172 () {38 vars in 667 bytes} [Sun Jul 12 23:06:32 2015] GET /favicon.ico => generated 9025 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8663|app: 0|req: 21/105] 151.26.2.172 () {40 vars in 804 bytes} [Sun Jul 12 23:06:41 2015] GET /people/search/?max_rows=10&key=A&ajax=1 => generated 1900 bytes in 19 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 8662|app: 0|req: 71/106] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:12:38 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15182 bytes in 171 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 72/107] 151.26.2.172 () {44 vars in 845 bytes} [Sun Jul 12 23:12:39 2015] GET /favicon.ico => generated 9025 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 73/108] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 23:16:18 2015] GET /favicon.ico => generated 9025 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 74/109] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:16:38 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15182 bytes in 174 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 8662|app: 0|req: 75/110] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:17:08 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15182 bytes in 167 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:17:17 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 9732 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9732)
+spawned uWSGI worker 1 (pid: 9734, cores: 1)
+spawned uWSGI worker 2 (pid: 9735, cores: 1)
+spawned uWSGI worker 3 (pid: 9736, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 9735|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:17:20 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15183 bytes in 2208 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:18:13 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 9833 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9833)
+spawned uWSGI worker 1 (pid: 9835, cores: 1)
+spawned uWSGI worker 2 (pid: 9836, cores: 1)
+spawned uWSGI worker 3 (pid: 9837, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 9835|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:18:22 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15183 bytes in 2293 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 9836|app: 0|req: 1/2] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:18:33 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15183 bytes in 2334 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 9837|app: 0|req: 1/3] 151.26.2.172 () {44 vars in 845 bytes} [Sun Jul 12 23:18:37 2015] GET /favicon.ico => generated 9025 bytes in 2037 msecs (HTTP/1.1 404) 2 headers in 65 bytes (2 switches on core 0)
+[pid: 9835|app: 0|req: 2/4] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:18:45 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15183 bytes in 174 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 9835|app: 0|req: 3/5] 151.26.2.172 () {44 vars in 845 bytes} [Sun Jul 12 23:18:46 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:19:03 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 10119 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10119)
+spawned uWSGI worker 1 (pid: 10121, cores: 1)
+spawned uWSGI worker 2 (pid: 10122, cores: 1)
+spawned uWSGI worker 3 (pid: 10123, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10121|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 937 bytes} [Sun Jul 12 23:19:06 2015] GET /people/adele-mintrone-17031974-corato/ => generated 15183 bytes in 2312 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+Sun Jul 12 23:19:21 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 151.26.2.172) !!!
+Sun Jul 12 23:19:21 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (151.26.2.172)
+IOError: write error
+[pid: 10123|app: 0|req: 1/2] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 23:19:19 2015] GET / => generated 0 bytes in 2365 msecs (HTTP/1.1 200) 3 headers in 0 bytes (1 switches on core 0)
+[pid: 10122|app: 0|req: 1/3] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 23:19:19 2015] GET / => generated 16663 bytes in 2337 msecs (HTTP/1.1 200) 3 headers in 195 bytes (2 switches on core 0)
+[pid: 10121|app: 0|req: 2/4] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 23:19:27 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 32 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 10123|app: 0|req: 2/5] 151.26.2.172 () {40 vars in 883 bytes} [Sun Jul 12 23:19:30 2015] GET /people/pasquale-pomodoro-08021952-corato => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 166 bytes (1 switches on core 0)
+[pid: 10122|app: 0|req: 2/6] 151.26.2.172 () {40 vars in 885 bytes} [Sun Jul 12 23:19:30 2015] GET /people/pasquale-pomodoro-08021952-corato/ => generated 20823 bytes in 400 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:20:13 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 10409 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10409)
+spawned uWSGI worker 1 (pid: 10411, cores: 1)
+spawned uWSGI worker 2 (pid: 10412, cores: 1)
+spawned uWSGI worker 3 (pid: 10413, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10412|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 938 bytes} [Sun Jul 12 23:20:16 2015] GET /people/pasquale-pomodoro-08021952-corato/ => generated 20823 bytes in 2442 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10411|app: 0|req: 1/2] 151.26.2.172 () {44 vars in 848 bytes} [Sun Jul 12 23:20:19 2015] GET /favicon.ico => generated 9025 bytes in 2036 msecs (HTTP/1.1 404) 2 headers in 65 bytes (2 switches on core 0)
+[pid: 10412|app: 0|req: 2/3] 151.26.2.172 () {44 vars in 938 bytes} [Sun Jul 12 23:20:40 2015] GET /people/pasquale-pomodoro-08021952-corato/ => generated 20823 bytes in 270 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10413|app: 0|req: 1/4] 151.26.2.172 () {44 vars in 848 bytes} [Sun Jul 12 23:20:41 2015] GET /favicon.ico => generated 9025 bytes in 2016 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:24:15 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 10701 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10701)
+spawned uWSGI worker 1 (pid: 10703, cores: 1)
+spawned uWSGI worker 2 (pid: 10704, cores: 1)
+spawned uWSGI worker 3 (pid: 10705, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10704|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 938 bytes} [Sun Jul 12 23:24:22 2015] GET /people/pasquale-pomodoro-08021952-corato/ => generated 20823 bytes in 2419 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 10704|app: 0|req: 2/2] 151.26.2.172 () {44 vars in 848 bytes} [Sun Jul 12 23:24:25 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:25:16 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x71e2d0 pid: 10802 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10802)
+spawned uWSGI worker 1 (pid: 10804, cores: 1)
+spawned uWSGI worker 2 (pid: 10805, cores: 1)
+spawned uWSGI worker 3 (pid: 10806, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10804|app: 0|req: 1/1] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 23:26:18 2015] GET /favicon.ico => generated 9025 bytes in 2014 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 10804|app: 0|req: 2/2] 151.26.2.172 () {38 vars in 691 bytes} [Sun Jul 12 23:27:15 2015] GET / => generated 15707 bytes in 216 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10806|app: 0|req: 1/3] 151.26.2.172 () {38 vars in 713 bytes} [Sun Jul 12 23:27:15 2015] GET /favicon.ico => generated 9025 bytes in 2086 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 10806|app: 0|req: 2/4] 151.26.2.172 () {42 vars in 831 bytes} [Sun Jul 12 23:27:22 2015] GET /people/search/?max_rows=10&key=t&ajax=1 => generated 1896 bytes in 40 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 10804|app: 0|req: 3/5] 151.26.2.172 () {40 vars in 810 bytes} [Sun Jul 12 23:27:23 2015] GET /people/tommaso-loiodice-21041965-corato => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 165 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 10805|app: 0|req: 1/6] 151.26.2.172 () {40 vars in 812 bytes} [Sun Jul 12 23:27:23 2015] GET /people/tommaso-loiodice-21041965-corato/ => generated 16291 bytes in 2510 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 10804|app: 0|req: 4/7] 151.26.2.172 () {38 vars in 762 bytes} [Sun Jul 12 23:29:00 2015] GET / => generated 16663 bytes in 167 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 10806|app: 0|req: 3/8] 151.26.2.172 () {40 vars in 1377 bytes} [Sun Jul 12 23:29:08 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 37200 bytes in 511 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:30:21 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 11100 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11100)
+spawned uWSGI worker 1 (pid: 11102, cores: 1)
+spawned uWSGI worker 2 (pid: 11103, cores: 1)
+spawned uWSGI worker 3 (pid: 11104, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 11104|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:30:24 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 37200 bytes in 2467 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11104|app: 0|req: 2/2] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:30:29 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:30:51 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 11199 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11199)
+spawned uWSGI worker 1 (pid: 11201, cores: 1)
+spawned uWSGI worker 2 (pid: 11202, cores: 1)
+spawned uWSGI worker 3 (pid: 11203, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 11202|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:03 2015] GET /favicon.ico => generated 9025 bytes in 3783 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+Sun Jul 12 23:31:07 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:07 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (151.26.2.172)
+IOError: write error
+[pid: 11201|app: 0|req: 1/2] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:02 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 0 bytes in 4471 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 11201|app: 0|req: 2/3] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:07 2015] GET /favicon.ico => generated 9025 bytes in 35 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+Sun Jul 12 23:31:07 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:07 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (151.26.2.172)
+IOError: write error
+[pid: 11203|app: 0|req: 1/4] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:03 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 0 bytes in 4293 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 11203|app: 0|req: 2/5] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:07 2015] GET /favicon.ico => generated 9025 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+Sun Jul 12 23:31:07 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:07 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (151.26.2.172)
+IOError: write error
+[pid: 11201|app: 0|req: 3/6] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:07 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 0 bytes in 375 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 11201|app: 0|req: 4/7] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:07 2015] GET /favicon.ico => generated 9025 bytes in 33 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 5/8] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:07 2015] GET /favicon.ico => generated 9025 bytes in 42 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+Sun Jul 12 23:31:07 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:07 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (151.26.2.172)
+IOError: write error
+[pid: 11203|app: 0|req: 3/9] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:07 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 0 bytes in 243 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Sun Jul 12 23:31:07 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:07 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (151.26.2.172)
+IOError: write error
+[pid: 11202|app: 0|req: 2/10] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:07 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 0 bytes in 862 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 11202|app: 0|req: 3/11] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:07 2015] GET /favicon.ico => generated 9025 bytes in 38 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+Sun Jul 12 23:31:08 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:08 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (151.26.2.172)
+IOError: write error
+[pid: 11203|app: 0|req: 4/12] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:07 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 0 bytes in 344 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 11203|app: 0|req: 5/13] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 6/14] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 7/15] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 8/16] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 9/17] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+Sun Jul 12 23:31:08 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:08 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ (151.26.2.172)
+IOError: write error
+[pid: 11201|app: 0|req: 6/18] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:07 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 0 bytes in 565 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 11202|app: 0|req: 4/19] 151.26.2.172 () {44 vars in 1430 bytes} [Sun Jul 12 23:31:07 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 37200 bytes in 329 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 7/20] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 20 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 10/21] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 30 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11202|app: 0|req: 5/22] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 24 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 11/23] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 12/24] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 9025 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+Sun Jul 12 23:31:08 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 151.26.2.172) !!!
+Sun Jul 12 23:31:08 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET /favicon.ico (151.26.2.172)
+IOError: write error
+[pid: 11203|app: 0|req: 13/25] 151.26.2.172 () {44 vars in 1094 bytes} [Sun Jul 12 23:31:08 2015] GET /favicon.ico => generated 0 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11203|app: 0|req: 14/26] 151.26.2.172 () {48 vars in 1319 bytes} [Sun Jul 12 23:31:18 2015] POST /acts/2/transition/remove/ => generated 0 bytes in 67 msecs (HTTP/1.1 302) 3 headers in 400 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 8/27] 151.26.2.172 () {42 vars in 1695 bytes} [Sun Jul 12 23:31:18 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 36760 bytes in 168 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+Internal Server Error: /acts/2/transition/remove/
+Traceback (most recent call last):
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/utils/decorators.py", line 25, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/utils/decorators.py", line 21, in bound_func
+    return func(self, *args2, **kwargs2)
+  File "/home/oo/oc.opencorato.org/private/venv/src/open-municipio/open_municipio/acts/views.py", line 484, in dispatch
+    return super(ActTransitionToggleBaseView, self).dispatch(*args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/views/generic/base.py", line 86, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/src/open-municipio/open_municipio/acts/views.py", line 523, in post
+    transition = get_object_or_404(Transition, pk=request.POST['transition_id'])
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/shortcuts/__init__.py", line 113, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/query.py", line 391, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/query.py", line 667, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/query.py", line 685, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1259, in add_q
+    can_reuse=used_aliases, force_having=force_having)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1190, in add_filter
+    connector)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/sql/where.py", line 71, in add
+    value = obj.prepare(lookup_type, value)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/sql/where.py", line 339, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 322, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 555, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+[pid: 11203|app: 0|req: 15/28] 151.26.2.172 () {48 vars in 1319 bytes} [Sun Jul 12 23:31:23 2015] POST /acts/2/transition/remove/ => generated 161239 bytes in 282 msecs (HTTP/1.1 500) 2 headers in 77 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 9/29] 151.26.2.172 () {42 vars in 1695 bytes} [Sun Jul 12 23:31:32 2015] GET /acts/deliberations/2011-02-18-229-2011-approvazione-progetto-definitivo-esecutivo-dei-lavori-di-realizzazione-della-piazza-circolare-allinterno-della-villa-comunale-nellambito-del-programma-integrato-di-riqualificazione-delle-periferie-dal-centro-storico-alla-zona-167-di-via-prenestina/ => generated 36760 bytes in 167 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 16/30] 151.26.2.172 () {40 vars in 1090 bytes} [Sun Jul 12 23:31:44 2015] GET / => generated 16663 bytes in 121 msecs (HTTP/1.1 200) 3 headers in 195 bytes (2 switches on core 0)
+[pid: 11203|app: 0|req: 17/31] 151.26.2.172 () {40 vars in 813 bytes} [Sun Jul 12 23:31:49 2015] GET /acts/ => generated 15372 bytes in 217 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 18/32] 151.26.2.172 () {40 vars in 832 bytes} [Sun Jul 12 23:31:56 2015] GET /acts/speech/ => generated 9156 bytes in 95 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 19/33] 151.26.2.172 () {40 vars in 829 bytes} [Sun Jul 12 23:31:58 2015] GET /people/ => generated 13134 bytes in 177 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 20/34] 151.26.2.172 () {40 vars in 830 bytes} [Sun Jul 12 23:32:00 2015] GET /votations/ => generated 8672 bytes in 134 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 21/35] 151.26.2.172 () {40 vars in 827 bytes} [Sun Jul 12 23:32:02 2015] GET /people/ => generated 13134 bytes in 173 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 22/36] 151.26.2.172 () {40 vars in 820 bytes} [Sun Jul 12 23:32:03 2015] GET /acts/ => generated 15372 bytes in 117 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 23/37] 151.26.2.172 () {42 vars in 851 bytes} [Sun Jul 12 23:33:00 2015] GET /acts/ => generated 15372 bytes in 130 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 24/38] 151.26.2.172 () {42 vars in 851 bytes} [Sun Jul 12 23:33:50 2015] GET /acts/ => generated 15372 bytes in 104 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 25/39] 151.26.2.172 () {40 vars in 808 bytes} [Sun Jul 12 23:34:31 2015] GET / => generated 16663 bytes in 117 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 26/40] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 23:34:33 2015] GET /people/search/?max_rows=10&key=f&ajax=1 => generated 1160 bytes in 27 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 10/41] 151.26.2.172 () {40 vars in 881 bytes} [Sun Jul 12 23:34:35 2015] GET /people/filomena-maldera-28111968-corato => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 165 bytes (1 switches on core 0)
+[pid: 11202|app: 0|req: 6/42] 151.26.2.172 () {40 vars in 883 bytes} [Sun Jul 12 23:34:35 2015] GET /people/filomena-maldera-28111968-corato/ => generated 19474 bytes in 280 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11202|app: 0|req: 7/43] 151.26.2.172 () {36 vars in 588 bytes} [Sun Jul 12 23:35:40 2015] GET / => generated 15707 bytes in 125 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 11/44] 151.26.2.172 () {36 vars in 610 bytes} [Sun Jul 12 23:35:43 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 27/45] 151.26.2.172 () {40 vars in 728 bytes} [Sun Jul 12 23:35:47 2015] GET /people/search/?max_rows=10&key=P&ajax=1 => generated 1332 bytes in 100 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 12/46] 151.26.2.172 () {38 vars in 709 bytes} [Sun Jul 12 23:35:49 2015] GET /people/pasquale-pomodoro-08021952-corato => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 166 bytes (1 switches on core 0)
+[pid: 11202|app: 0|req: 8/47] 151.26.2.172 () {38 vars in 711 bytes} [Sun Jul 12 23:35:49 2015] GET /people/pasquale-pomodoro-08021952-corato/ => generated 17693 bytes in 256 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 11203|app: 0|req: 28/48] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 23:36:18 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11201|app: 0|req: 13/49] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:37:56 2015] GET /people/filomena-maldera-28111968-corato/ => generated 19474 bytes in 224 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:38:16 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 11525 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11525)
+spawned uWSGI worker 1 (pid: 11527, cores: 1)
+spawned uWSGI worker 2 (pid: 11528, cores: 1)
+spawned uWSGI worker 3 (pid: 11529, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 11527|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:38:20 2015] GET /people/filomena-maldera-28111968-corato/ => generated 19474 bytes in 2475 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 11529|app: 0|req: 1/2] 151.26.2.172 () {40 vars in 885 bytes} [Sun Jul 12 23:38:41 2015] GET /institutions/council/ => generated 72237 bytes in 2901 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11529|app: 0|req: 2/3] 151.26.2.172 () {44 vars in 938 bytes} [Sun Jul 12 23:40:18 2015] GET /institutions/council/ => generated 72236 bytes in 541 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 11528|app: 0|req: 1/4] 151.26.2.172 () {44 vars in 828 bytes} [Sun Jul 12 23:40:21 2015] GET /favicon.ico => generated 9025 bytes in 2289 msecs (HTTP/1.1 404) 2 headers in 65 bytes (2 switches on core 0)
+[pid: 11529|app: 0|req: 3/5] 151.26.2.172 () {40 vars in 824 bytes} [Sun Jul 12 23:40:30 2015] GET / => generated 16663 bytes in 136 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11529|app: 0|req: 4/6] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 23:40:32 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 31 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 11529|app: 0|req: 5/7] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 23:40:37 2015] GET /people/search/?max_rows=10&key=aa&ajax=1 => generated 2 bytes in 13 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 11527|app: 0|req: 2/8] 151.26.2.172 () {42 vars in 891 bytes} [Sun Jul 12 23:40:38 2015] GET /people/search/?max_rows=10&key=a&ajax=1 => generated 1900 bytes in 32 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 11529|app: 0|req: 6/9] 151.26.2.172 () {42 vars in 893 bytes} [Sun Jul 12 23:40:39 2015] GET /people/search/?max_rows=10&key=ab&ajax=1 => generated 580 bytes in 18 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 11527|app: 0|req: 3/10] 151.26.2.172 () {40 vars in 881 bytes} [Sun Jul 12 23:40:40 2015] GET /people/fabrizio-ventura-20041975-corato => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 165 bytes (1 switches on core 0)
+[pid: 11528|app: 0|req: 2/11] 151.26.2.172 () {40 vars in 883 bytes} [Sun Jul 12 23:40:40 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18711 bytes in 358 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11528|app: 0|req: 3/12] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:42:14 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18711 bytes in 202 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 11528|app: 0|req: 4/13] 151.26.2.172 () {44 vars in 847 bytes} [Sun Jul 12 23:42:15 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:44:51 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 11831 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11831)
+spawned uWSGI worker 1 (pid: 11833, cores: 1)
+spawned uWSGI worker 2 (pid: 11834, cores: 1)
+spawned uWSGI worker 3 (pid: 11835, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 11833|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:44:54 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18685 bytes in 2543 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 11835|app: 0|req: 1/2] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 23:46:18 2015] GET /favicon.ico => generated 9025 bytes in 2082 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 11835|app: 0|req: 2/3] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:47:05 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18706 bytes in 408 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:51:17 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71e2d0 pid: 12037 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12037)
+spawned uWSGI worker 1 (pid: 12039, cores: 1)
+spawned uWSGI worker 2 (pid: 12040, cores: 1)
+spawned uWSGI worker 3 (pid: 12041, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 12039|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:51:20 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18705 bytes in 4945 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 12040|app: 0|req: 1/2] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:54:15 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18852 bytes in 3765 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12040|app: 0|req: 2/3] 84.221.51.217 () {32 vars in 398 bytes} [Sun Jul 12 23:56:18 2015] GET /favicon.ico => generated 9025 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12040|app: 0|req: 3/4] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:56:30 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 19048 bytes in 211 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 12041|app: 0|req: 1/5] 151.26.2.172 () {44 vars in 964 bytes} [Sun Jul 12 23:56:31 2015] GET /people/fabrizio-ventura-20041975-corato/images/myimage_sm.jpg => generated 10630 bytes in 2933 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12040|app: 0|req: 4/6] 151.26.2.172 () {44 vars in 847 bytes} [Sun Jul 12 23:56:34 2015] GET /favicon.ico => generated 9025 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Jul 12 23:57:36 2015] ***
+compiled with version: 4.8.4 on 30 June 2015 23:05:53
+os: Linux-3.10.23-xxxx-std-ipv6-64-vps #1 SMP Tue Mar 18 14:51:03 CET 2014
+nodename: vps179222.ovh.net
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/oo/oc.opencorato.org/private/nginx
+writing pidfile to /home/oo/oc.opencorato.org/private/nginx/openordini.pid
+detected binary path: /home/oo/oc.opencorato.org/private/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/oo/oc.opencorato.org/private/
+your processes number limit is 15929
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/oo/oc.opencorato.org/private/nginx/openordini.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Set PythonHome to /home/oo/oc.opencorato.org/private/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x71e2d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291072 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x71e2d0 pid: 12339 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12339)
+spawned uWSGI worker 1 (pid: 12341, cores: 1)
+spawned uWSGI worker 2 (pid: 12342, cores: 1)
+spawned uWSGI worker 3 (pid: 12343, cores: 1)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 12341|app: 0|req: 1/1] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:57:38 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18904 bytes in 3556 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12341|app: 0|req: 2/2] 151.26.2.172 () {44 vars in 964 bytes} [Sun Jul 12 23:57:42 2015] GET /people/fabrizio-ventura-20041975-corato/images/myimage_sm.jpg => generated 10630 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12341|app: 0|req: 3/3] 151.26.2.172 () {44 vars in 847 bytes} [Sun Jul 12 23:57:42 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (2 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 12343|app: 0|req: 1/4] 151.26.2.172 () {44 vars in 936 bytes} [Sun Jul 12 23:59:22 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 3409 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 2/5] 151.26.2.172 () {44 vars in 847 bytes} [Sun Jul 12 23:59:27 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 3/6] 151.26.2.172 () {42 vars in 914 bytes} [Mon Jul 13 00:01:00 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 400 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12341|app: 0|req: 4/7] 151.26.2.172 () {42 vars in 914 bytes} [Mon Jul 13 00:01:21 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 203 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 4/8] 84.221.51.217 () {32 vars in 398 bytes} [Mon Jul 13 00:06:18 2015] GET /favicon.ico => generated 9025 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 5/9] 151.26.2.172 () {44 vars in 936 bytes} [Mon Jul 13 00:11:33 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 211 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 6/10] 151.26.2.172 () {42 vars in 914 bytes} [Mon Jul 13 00:16:09 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 205 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 7/11] 84.221.51.217 () {32 vars in 398 bytes} [Mon Jul 13 00:16:18 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 8/12] 84.221.51.217 () {32 vars in 398 bytes} [Mon Jul 13 00:26:18 2015] GET /favicon.ico => generated 9025 bytes in 56 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 9/13] 151.26.2.172 () {44 vars in 936 bytes} [Mon Jul 13 00:26:52 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 579 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+/home/oo/oc.opencorato.org/private/venv/local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+[pid: 12342|app: 0|req: 1/14] 151.26.2.172 () {44 vars in 936 bytes} [Mon Jul 13 00:27:21 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 4183 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 10/15] 151.26.2.172 () {42 vars in 914 bytes} [Mon Jul 13 00:29:58 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 230 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12342|app: 0|req: 2/16] 151.26.2.172 () {42 vars in 914 bytes} [Mon Jul 13 00:31:52 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 229 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 11/17] 151.26.2.172 () {42 vars in 914 bytes} [Mon Jul 13 00:34:16 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18707 bytes in 219 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 12/18] 84.221.51.217 () {32 vars in 398 bytes} [Mon Jul 13 00:36:18 2015] GET /favicon.ico => generated 9025 bytes in 15 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 13/19] 151.26.2.172 () {44 vars in 936 bytes} [Mon Jul 13 00:39:57 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18885 bytes in 208 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 14/20] 151.26.2.172 () {40 vars in 853 bytes} [Mon Jul 13 00:40:07 2015] GET /acts/ => generated 15545 bytes in 819 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 12342|app: 0|req: 3/21] 151.26.2.172 () {40 vars in 832 bytes} [Mon Jul 13 00:40:13 2015] GET /acts/speech/ => generated 9329 bytes in 228 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 15/22] 151.26.2.172 () {40 vars in 835 bytes} [Mon Jul 13 00:40:16 2015] GET /votations/ => generated 8845 bytes in 154 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 16/23] 151.26.2.172 () {40 vars in 827 bytes} [Mon Jul 13 00:40:21 2015] GET /people/ => generated 13307 bytes in 235 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 17/24] 151.26.2.172 () {40 vars in 824 bytes} [Mon Jul 13 00:41:08 2015] GET /people/ => generated 13307 bytes in 176 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 12341|app: 0|req: 5/25] 151.26.2.172 () {40 vars in 868 bytes} [Mon Jul 13 00:41:09 2015] GET /institutions/city-government/ => generated 35800 bytes in 284 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 18/26] 151.26.2.172 () {42 vars in 899 bytes} [Mon Jul 13 00:41:52 2015] GET /institutions/city-government/ => generated 35800 bytes in 220 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12341|app: 0|req: 6/27] 151.26.2.172 () {44 vars in 921 bytes} [Mon Jul 13 00:42:01 2015] GET /institutions/city-government/ => generated 35800 bytes in 203 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 19/28] 151.26.2.172 () {44 vars in 836 bytes} [Mon Jul 13 00:42:02 2015] GET /favicon.ico => generated 9025 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 65 bytes (2 switches on core 0)
+[pid: 12343|app: 0|req: 20/29] 151.26.2.172 () {40 vars in 874 bytes} [Mon Jul 13 00:42:07 2015] GET /institutions/council/ => generated 72410 bytes in 477 msecs (HTTP/1.1 200) 3 headers in 195 bytes (2 switches on core 0)
+[pid: 12342|app: 0|req: 4/30] 151.26.2.172 () {40 vars in 872 bytes} [Mon Jul 13 00:42:16 2015] GET /institutions/committees/ => generated 12600 bytes in 60 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 12342|app: 0|req: 5/31] 151.26.2.172 () {40 vars in 827 bytes} [Mon Jul 13 00:42:21 2015] GET / => generated 16663 bytes in 190 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 21/32] 151.26.2.172 () {42 vars in 891 bytes} [Mon Jul 13 00:42:25 2015] GET /people/search/?max_rows=10&key=b&ajax=1 => generated 1528 bytes in 35 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 12342|app: 0|req: 6/33] 151.26.2.172 () {40 vars in 873 bytes} [Mon Jul 13 00:42:27 2015] GET /people/renato-bucci-18071970-corato => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 161 bytes (1 switches on core 0)
+[pid: 12342|app: 0|req: 7/34] 151.26.2.172 () {40 vars in 875 bytes} [Mon Jul 13 00:42:27 2015] GET /people/renato-bucci-18071970-corato/ => generated 17829 bytes in 326 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12341|app: 0|req: 7/35] 151.26.2.172 () {42 vars in 906 bytes} [Mon Jul 13 00:43:23 2015] GET /people/renato-bucci-18071970-corato/ => generated 17829 bytes in 315 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 22/36] 84.221.51.217 () {32 vars in 398 bytes} [Mon Jul 13 00:46:18 2015] GET /favicon.ico => generated 9025 bytes in 15 msecs (HTTP/1.1 404) 2 headers in 65 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 23/37] 151.26.2.172 () {42 vars in 906 bytes} [Mon Jul 13 00:46:24 2015] GET /people/renato-bucci-18071970-corato/ => generated 17829 bytes in 213 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 24/38] 151.26.2.172 () {40 vars in 839 bytes} [Mon Jul 13 00:46:46 2015] GET / => generated 16663 bytes in 125 msecs (HTTP/1.1 200) 3 headers in 195 bytes (2 switches on core 0)
+[pid: 12342|app: 0|req: 8/39] 151.26.2.172 () {42 vars in 891 bytes} [Mon Jul 13 00:47:00 2015] GET /people/search/?max_rows=10&key=v&ajax=1 => generated 1329 bytes in 503 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 25/40] 151.26.2.172 () {40 vars in 883 bytes} [Mon Jul 13 00:47:04 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18885 bytes in 200 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 26/41] 151.26.2.172 () {44 vars in 936 bytes} [Mon Jul 13 00:47:59 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18902 bytes in 211 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12342|app: 0|req: 9/42] 151.26.2.172 () {44 vars in 936 bytes} [Mon Jul 13 00:48:29 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18903 bytes in 204 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 12343|app: 0|req: 27/43] 151.26.2.172 () {44 vars in 936 bytes} [Mon Jul 13 00:49:17 2015] GET /people/fabrizio-ventura-20041975-corato/ => generated 18885 bytes in 203 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
