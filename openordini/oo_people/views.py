@@ -191,8 +191,7 @@ class OOPoliticianSearchView(PoliticianSearchView):
 
         current_site = Site.objects.get(pk=settings.SITE_ID)
 
-        persons = Person.objects.\
-            filter(Q(first_name__icontains=key) | Q(last_name__icontains=key) | Q(userprofile__userprofile__anagrafica__indirizzo_studio__icontains=key) | Q(userprofile__userprofile__anagrafica__citta_studio__icontains=key) | Q(userprofile__userprofile__anagrafica__cap_studio__icontains=key) | Q(userprofile__userprofile__anagrafica__denominazione_studio__icontains=key)).distinct()[0:max_rows]
+        persons = Person.objects.filter(Q(first_name__icontains=key) | Q(last_name__icontains=key)).distinct()[0:max_rows]
 
         # build persons array,substituting the img with a 50x50 thumbnail
         # and returning the absolute url of the thumbnail
@@ -206,7 +205,7 @@ class OOPoliticianSearchView(PoliticianSearchView):
             except BaseException as e:
                 img_url = "http://%s/static/img/placehold/face_50.png#%s" % (current_site, e)
 
- 
+            print "trovato un nome %s" % (person.first_name)
             # manually build a dictionary to have more control on extra
             # data to show (i.e. data not from model Person)
             p_data = {
