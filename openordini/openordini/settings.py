@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'openordini.acts_fulfillments',  
     'openordini.oo_people',
     'openordini.oo_users',
+    'openordini.oc_determina',
     'openordini.openordini',
     'openordini.mvdb',
     'awesome_bootstrap',
@@ -44,6 +45,7 @@ INSTALLED_APPS = (
     'leaflet',
     'localflavor',
     'ajax_changelist',
+    'responsive',
 )
 
 ROOT_URLCONF = 'openordini.openordini.urls'
