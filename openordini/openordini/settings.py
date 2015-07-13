@@ -36,7 +36,7 @@ INSTALLED_APPS = (
     'openordini.acts_fulfillments',  
     'openordini.oo_people',
     'openordini.oo_users',
-    'openordini.oc_determina',
+    'openordini.oc_determine',
     'openordini.openordini',
     'openordini.mvdb',
     'awesome_bootstrap',
