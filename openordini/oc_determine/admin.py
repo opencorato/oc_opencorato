@@ -30,4 +30,4 @@ class DeterminaAdmin(ActAdmin):
     inline_base = [ TransitionInline, AttachInline, ]    
 
 admin.site.register(Determina, DeterminaAdmin)
-admin.site.unregister(Act)
+#admin.site.unregister(Act)
