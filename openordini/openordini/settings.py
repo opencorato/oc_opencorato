@@ -208,6 +208,7 @@ SUIT_CONFIG = {
         {'app': 'people', 'label': 'Soggetti collegati', 'icon':'icon-user', 'models': ('person','office','institution','group','company','sitting')},       
         {'app': 'acts', 'label': 'Gestione atti del Consiglio', 'icon':'icon-book', 'models': ('act','deliberation', 'agenda','document','attach','speech','calendar')},
         {'app': 'acts_fulfillments', 'label': 'Fascicoli iscritti', 'icon':'icon-book', 'models': ('fascicolo')},
+        {'app': 'oc_determine', 'label': 'Determine Dirigenti', 'icon':'icon-book', 'models': ('determina')},
         {'app': 'oo_payments', 'label': 'Pagamenti', 'icon':'icon-tag', 'models': ('order','payment','subscriptionorder','subscriptionplan')},
         {'app': 'newsletter', 'label': 'Newsletter', 'icon':'icon-comment', 'models': ('newsletter')},
         {'app': 'attendances', 'label': 'Presenze', 'icon':'icon-check', 'models': ('attendance','chargeattendance')},
