@@ -41,7 +41,8 @@ def user_created(sender, user, request, **kwargs):
     ``UserProfile`` must be created too. Necessary information is
     supposed to be found in POST data.
     """
-
+    
+    print "sono io"
     # print "salva utente: %s (user = %s)..." % (user_registered, user)
     # deletes the user profiles created by OM ... it's not
     # very efficient (INSERT + DELETE) but makes the two systems
