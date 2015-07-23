@@ -10,7 +10,8 @@ from django.conf import settings
 from open_municipio.urls import *
 
 from .views import OOHomeView
-from ..oo_users.forms import UserRegistrationForm
+#from ..oo_users.forms import UserRegistrationForm
+from open_municipio.users.forms import UserRegistrationForm
 
 admin.site.login = login_required(admin.site.login)
 
@@ -19,6 +20,13 @@ urlpatterns = patterns('',
     # url(r'^grappelli/', include('grappelli.urls')),
 
     url(r'^$', OOHomeView.as_view(), name="home"),
+
+    # must override existing urls
+    url(r'^accounts/register/$', register, {
+            'backend': 'registration.backends.default.DefaultBackend',
+            'form_class': UserRegistrationForm,
+        }, name='registration_register'),
+
     url('^acts/', include('openordini.acts_fulfillments.urls')),
 	url('^people/', include('openordini.oo_people.urls.people')),
     url('^institutions/', include('openordini.oo_people.urls.institutions')),
@@ -26,10 +34,3 @@ urlpatterns = patterns('',
     url('^payments/', include('openordini.oo_payments.urls')),
 ) + urlpatterns
 
-"""
- # must override existing urls
-    url(r'^accounts/register/$', register, {
-            'backend': 'registration.backends.default.DefaultBackend',
-            'form_class': UserRegistrationForm,
-        }, name='registration_register'),
-"""
