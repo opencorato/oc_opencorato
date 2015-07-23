@@ -21,11 +21,12 @@ urlpatterns = patterns('',
     url(r'^$', OOHomeView.as_view(), name="home"),
 
     # must override existing urls
+    """
     url(r'^accounts/register/$', register, {
             'backend': 'registration.backends.default.DefaultBackend',
             'form_class': UserRegistrationForm,
         }, name='registration_register'),
-
+    """
     url('^acts/', include('openordini.acts_fulfillments.urls')),
 	url('^people/', include('openordini.oo_people.urls.people')),
     url('^institutions/', include('openordini.oo_people.urls.institutions')),
