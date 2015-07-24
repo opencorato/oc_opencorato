@@ -11,7 +11,7 @@ from open_municipio.urls import *
 
 from .views import OOHomeView
 #from ..oo_users.forms import UserRegistrationForm
-from ..oo_users.forms import UserRegistrationForm
+from open_municipio.users.forms import UserRegistrationForm
 
 admin.site.login = login_required(admin.site.login)
 
