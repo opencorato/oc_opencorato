@@ -5,6 +5,7 @@
 {% load popover_info %}
 {% load people_tags %}
 {% load url from future %}
+{% load cookielaw_tags %}
 
 
 {% block title %}Home page{% endblock %}
@@ -238,7 +239,7 @@
           </div>
       </div>
   {% endif %}
-
+  {% cookielaw_banner %}
 
 {% endblock container %}
 
