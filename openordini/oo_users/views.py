@@ -248,9 +248,9 @@ class OOUserProfileEditView(FormView):
             initial["first_name"] = user.first_name
             initial["last_name"] = user.last_name
             initial["email"] = user.email
-            initial["birth_date"] = user.get_profile().person.birth_date
-            initial["birth_location"] = user.get_profile().person.birth_location
-            initial["sex"] = user.get_profile().person.sex                
+            #initial["birth_date"] = user.get_profile().person.birth_date
+            #initial["birth_location"] = user.get_profile().person.birth_location
+            #initial["sex"] = user.get_profile().person.sex                
         except ObjectDoesNotExist:
             pass
      
@@ -343,9 +343,9 @@ class OOUserProfileEditView(FormView):
         profile.save()
 
         person = user.get_profile().person
-        person.birth_date = form.cleaned_data["birth_date"]
-        person.birth_location = form.cleaned_data["birth_location"]
-        person.sex = form.cleaned_data["sex"]
+        #person.birth_date = form.cleaned_data["birth_date"]
+        #person.birth_location = form.cleaned_data["birth_location"]
+        #person.sex = form.cleaned_data["sex"]
         person.save()
 
         anagrafica, created = ExtraPeople.objects.get_or_create(anagrafica_extra=profile)
