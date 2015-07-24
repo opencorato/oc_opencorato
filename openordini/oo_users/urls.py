@@ -12,7 +12,7 @@ from openordini.oo_people.views import *
 
 from .views import OOUserProfileDetailView, OOUserProfileListView, \
             OOUserProfileEditView, GenerateModuleSezA
-"""
+
 # place app url patterns here
 urlpatterns = patterns('',
     url(r'^$',
@@ -30,4 +30,3 @@ urlpatterns = patterns('',
     url(r'^module/sez_a/$',
         GenerateModuleSezA.as_view(), name='profiles_module_subscribe_a'),
 )
-"""
