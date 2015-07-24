@@ -122,9 +122,9 @@ def user_created(sender, user, request, **kwargs):
     person = Person()
     person.first_name = user.first_name
     person.last_name = user.last_name
-    person.birth_date = form.cleaned_data["birth_date"]
-    person.birth_location = form.cleaned_data.get("birth_location", None)
-    person.sex = form.cleaned_data["sex"]
+    #person.birth_date = form.cleaned_data["birth_date"]
+    #person.birth_location = form.cleaned_data.get("birth_location", None)
+    #person.sex = form.cleaned_data["sex"]
     person.img = request.FILES.get('image', None)
 
     try:
@@ -149,6 +149,7 @@ def user_created(sender, user, request, **kwargs):
 
 
     # aggiungi recapiti
+    """
     extra_data_recapiti = ExtraPeople(anagrafica_extra=extra_data)
     extra_data_recapiti.indirizzo_residenza = form.cleaned_data.get('indirizzo_residenza',False)
     extra_data_recapiti.citta_residenza  = form.cleaned_data.get('citta_residenza',False)
@@ -163,7 +164,7 @@ def user_created(sender, user, request, **kwargs):
     extra_data_recapiti.cap_studio  = form.cleaned_data.get('cap_studio',False)
     extra_data_recapiti.provincia_studio  = form.cleaned_data.get('provincia_studio',False)    
     extra_data_recapiti.save()
-
+    """
 
     # aggiungi a gruppi e commissioni
 
