@@ -246,11 +246,24 @@
               <img src="{% if LOGO_URL %}{{ LOGO_URL }}{% else %}{{ STATIC_URL }}img/logo-openmunicipio.png{% endif %}" alt="Open municipio">
           </div>
           <div class="modal-body">
-              <p class="alert alert-warning" role="alert">I dati inseriti sono di prova e finalizzati alla verifica del portale</p>
+              <p class="alert alert-warning" role="alert">Fase di caricamento dei dati</p>
               <div class="row-fluid">
-                       {% for event in events %}
-                           <div class="span6">{% include 'events/_inline_home.html' %}</div>
-                       {% endfor %}
+               {% if events|length > 0 %}
+                       <section id="agenda">
+					       <div class="container-fluid">
+					           <div class="row-fluid">
+					               <div class="span12">
+					                   <h2>Cosa succede in comune {% popover_info 'agenda' %}</h2>
+					                   <div class="row-fluid">
+					                       {% for event in events %}
+					                           <div class="span6">{% include 'events/_inline_home.html' %}</div>
+					                       {% endfor %}
+					                   </div>
+					               </div>
+					           </div>
+					       </div>
+                     </section>
+                {% endif %}
               </div>
               
           </div>
