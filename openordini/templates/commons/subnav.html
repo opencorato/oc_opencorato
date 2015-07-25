@@ -1,8 +1,8 @@
 {% load url from future %}
-<nav class="navbar" id="sub-nav">
+<nav class="nav-wrapper" id="sub-nav">
     <div class="navbar-inner">
         <div class="container-fluid">
-            <ul class="nav">
+            <ul class="right hide-on-med-and-down" id="nav-mobile">
                 <li {% ifequal active 'Giunta' %}class="unpipe"{% endifequal %}>
                     <a href="{% url 'om_institution_citigov' %}"
                        {% ifequal active 'Giunta' %} class="active"{% endifequal %}>Giunta</a>
@@ -23,3 +23,5 @@
         </div>
     </div>
 </nav>
+
+
