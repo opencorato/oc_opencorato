@@ -240,6 +240,20 @@
       </div>
   {% endif %}
 
+      <div class="modal" id="home-notice">
+          <div class="modal-header">
+              <button class="close" data-dismiss="modal">×</button>
+              <img src="{% if LOGO_URL %}{{ LOGO_URL }}{% else %}{{ STATIC_URL }}img/logo-openmunicipio.png{% endif %}" alt="Open municipio">
+          </div>
+          <div class="modal-body">
+              <p>Testo del popup</p>
+          </div>
+          <div class="modal-footer">
+              <a href="#" class="btn btn-primary btn-large" data-dismiss="modal">Entra nel sito</a>
+          </div>
+      </div>
+  
+
 {% endblock container %}
 
 
@@ -298,11 +312,18 @@
       });
   </script>
 
-    {% if ALERT_POPUP|length > 0 %}
+  {% if ALERT_POPUP|length > 0 %}
       <script type="text/javascript">
           $(document).ready(function(){
               $('#home-alert').modal();
           });
       </script>
   {% endif %}
+       <script type="text/javascript">
+          $(document).ready(function(){
+              $('#home-notice').modal();
+          });
+      </script>
+
+
 {% endblock %}
