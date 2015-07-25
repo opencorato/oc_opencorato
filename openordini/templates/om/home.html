@@ -246,7 +246,13 @@
               <img src="{% if LOGO_URL %}{{ LOGO_URL }}{% else %}{{ STATIC_URL }}img/logo-openmunicipio.png{% endif %}" alt="Open municipio">
           </div>
           <div class="modal-body">
-              <p>Testo del popup</p>
+              <p class="alert alert-warning" role="alert">I dati inseriti sono di prova e finalizzati alla verifica del portale</p>
+              <div class="row-fluid">
+                       {% for event in events %}
+                           <div class="span6">{% include 'events/_inline_home.html' %}</div>
+                       {% endfor %}
+              </div>
+              
           </div>
           <div class="modal-footer">
               <a href="#" class="btn btn-primary btn-large" data-dismiss="modal">Entra nel sito</a>
