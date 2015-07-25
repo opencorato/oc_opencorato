@@ -79,9 +79,9 @@
       </header>
 
       {% if current_charges %}
-        <ul class="list-plain">
+        <ul class="list-plain list-group">
             {% for c in current_charges %}
-                <li><strong>{{ c.denomination }}</strong> dal {{ c.start_date|date:"d.m.Y" }}{% if c.end_date %} al {{ c.end_date|date:"d.m.Y" }}{% endif %} {% popover_info 'carica-attuale' %}</li>
+                <li class="list-group-item list-group-item-success"><strong>{{ c.denomination }}</strong> dal {{ c.start_date|date:"d.m.Y" }}{% if c.end_date %} al {{ c.end_date|date:"d.m.Y" }}{% endif %} {% popover_info 'carica-attuale' %}</li>
             {% endfor %}
         </ul>
       {% endif %}
@@ -96,7 +96,7 @@
       {% endif %}
       {% if historical_groupcharges %}
           Gruppi precedenti:
-              <ul>
+              <ul class="list-plain list-group">
                   {% for gc in historical_groupcharges %}
                       <li>{{ gc.group.name }} - dal {{ gc.start_date|date:'d.m.Y' }} {%  if gc.end_date %} al {{ gc.end_date|date:'d.m.Y' }}{%  endif %}</li>
                   {% endfor %}
@@ -104,9 +104,9 @@
           {% endif %}
 
       {% if current_committee_charges %}
-          <ul class="list-plain">
+          <ul class="list-plain list-group">
             {% for c in current_committee_charges %}
-              <li>{{ c.institution }}:
+              <li class="list-group-item list-group-item-info">{{ c.institution }}:
                 <em>{{ c.institution.description }}</em>
                 {% if c.current_responsability %}
                   - {% trans c.current_responsability.get_charge_type_display %}
