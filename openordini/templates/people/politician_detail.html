@@ -24,14 +24,17 @@
 {% block head_css_includes %}
     {{ block.super }}
     <link rel="stylesheet" href="{{ STATIC_URL }}css/meter-bar.css" />
-    <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.min.css" />
-    <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-theme.css" />    
+    <!--link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.min.css" /-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+    <!--link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-theme.css" /-->    
 {% endblock head_css_includes %}
 
 {% block head_js_includes %}
   {{ block.super }}
   <script src="{{ STATIC_URL }}js/ajax_csrf.js" type="text/javascript" charset="utf-8"></script>
   <script src="{{ STATIC_URL }}js/jquery.submitlink.js" stype="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+          
 {% endblock head_js_includes %}
 
 {% block sub_nav %}
