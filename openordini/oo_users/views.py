@@ -355,7 +355,7 @@ class OOUserProfileEditView(FormView):
             person.save()
         except Exception, e: 
             subject = u"It was not possible to save the personal data of user: %(user)s" % { "user": smart_text(user) }
-            #msg = "%(subject)s.\n\nDetails: %(error)s\n\nProvided data:\n\n%(data)s" % { "subject": subject, "error": smart_text(e), "data": smart_text(log_data) }
+            msg = "%(subject)s.\n\nDetails: %(error)s\n\n" % { "subject": subject, "error": smart_text(e) }
             d = { "subject": subject }
             logger.warning(msg, extra=d)
         #person.save()
