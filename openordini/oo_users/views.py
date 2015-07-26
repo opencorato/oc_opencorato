@@ -345,9 +345,9 @@ class OOUserProfileEditView(FormView):
         profile.save()
 
         person = user.get_profile().person
-        person.birth_date = form.cleaned_data["birth_date"] or None
-        person.birth_location = form.cleaned_data["birth_location"] or None
-        person.sex = form.cleaned_data["sex"] or None
+        #person.birth_date = form.cleaned_data["birth_date"] or None
+        #person.birth_location = form.cleaned_data["birth_location"] or None
+        #person.sex = form.cleaned_data["sex"] or None
         try: 
             person.save()
         except Exception, e: 
