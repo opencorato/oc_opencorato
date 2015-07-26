@@ -22,6 +22,8 @@ from openordini.mvdb.models import Regioni, Provincie, Comuni
 
 from ..commons.mixins import FilterNewsByUser
 
+from django.utils.encoding import smart_text
+
 class OOUserProfileDetailView(FilterNewsByUser, UserProfileDetailView):
 
     model = UserProfile
@@ -343,10 +345,20 @@ class OOUserProfileEditView(FormView):
         profile.save()
 
         person = user.get_profile().person
-        #person.birth_date = form.cleaned_data["birth_date"]
-        #person.birth_location = form.cleaned_data["birth_location"]
-        #person.sex = form.cleaned_data["sex"]
-        person.save()
+        person.birth_date = form.cleaned_data["birth_date"] or None
+        person.birth_location = form.cleaned_data["birth_location"] or None
+        person.sex = form.cleaned_data["sex"] or None
+        try: 
+            person.save()
+        except Exception, e: 
+            subject = _(u"It was not possible to save the personal data of user: %(user)s") % { "user": smart_text(user) }
+
+        msg = _("%(subject)s.\n\nDetails: %(error)s\n\nProvided data:\n\n%(data)s") % { "subject": subject, "error": smart_text(e), "data": smart_text(log_data) }
+
+        d = { "subject": subject }
+
+        logger.warning(msg, extra=d)
+        #person.save()
 
         anagrafica, created = ExtraPeople.objects.get_or_create(anagrafica_extra=profile)
         anagrafica.indirizzo_residenza = form.cleaned_data["indirizzo_residenza"]
