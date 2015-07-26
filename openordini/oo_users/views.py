@@ -1,3 +1,4 @@
+import logging
 import os
 from datetime import datetime
 from django.core.exceptions import ObjectDoesNotExist
@@ -23,6 +24,8 @@ from openordini.mvdb.models import Regioni, Provincie, Comuni
 from ..commons.mixins import FilterNewsByUser
 
 from django.utils.encoding import smart_text
+
+logger = logging.getLogger("registration")
 
 class OOUserProfileDetailView(FilterNewsByUser, UserProfileDetailView):
 
