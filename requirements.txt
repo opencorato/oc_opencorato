@@ -1,4 +1,4 @@
-Django==1.5.0
+Django==1.11.28
 -e git+https://github.com/idlweb/open_municipio.git@dev-senigallia#egg=open_municipio
 
 # Requirements for OpenMunicipio
